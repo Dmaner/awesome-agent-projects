@@ -37,6 +37,20 @@ for (const category of sections.Categories?.categories ?? []) {
   if (category.expectedCount !== category.projects.length) {
     errors.push(`Category count mismatch for ${category.name}: header says ${category.expectedCount}, found ${category.projects.length}.`);
   }
+  for (const project of category.projects) {
+    if (!project.fields.stars || Number.isNaN(Number(project.fields.stars))) {
+      errors.push(`Category project missing numeric stars: ${category.name} / ${project.name}`);
+    }
+    if (!project.fields.updated) {
+      errors.push(`Category project missing updated date: ${category.name} / ${project.name}`);
+    }
+    if (!project.fields.tags) {
+      errors.push(`Category project missing tags: ${category.name} / ${project.name}`);
+    }
+    if (!project.about) {
+      errors.push(`Category project missing about description: ${category.name} / ${project.name}`);
+    }
+  }
 }
 
 for (const line of projectLines) {
@@ -77,7 +91,8 @@ function parseSections(markdownText) {
   let section;
   let category;
 
-  for (const rawLine of lines) {
+  for (let index = 0; index < lines.length; index += 1) {
+    const rawLine = lines[index];
     const line = rawLine.trim();
     if (!line) {
       continue;
@@ -105,6 +120,7 @@ function parseSections(markdownText) {
 
     if (line.startsWith("- [")) {
       const project = parseProject(line);
+      project.about = collectAbout(lines, index);
       if (section === "Popular" || section === "New") {
         parsed[section].projects.push(project);
       } else if (section === "Categories" && category) {
@@ -125,7 +141,7 @@ function parseProject(line) {
       fields[match[1].trim().toLowerCase()] = match[2].trim();
     }
   }
-  return { name, fields };
+  return { name, fields, about: "" };
 }
 
 function isWithinDays(value, days) {
@@ -138,4 +154,19 @@ function isWithinDays(value, days) {
   }
   const ageMs = Date.now() - date.getTime();
   return ageMs >= 0 && ageMs <= days * 24 * 60 * 60 * 1000;
+}
+
+function collectAbout(lines, startIndex) {
+  const aboutLines = [];
+  for (let index = startIndex + 1; index < lines.length; index += 1) {
+    const line = lines[index];
+    if (!line.startsWith("  ")) {
+      break;
+    }
+    const trimmed = line.trim();
+    if (trimmed) {
+      aboutLines.push(trimmed);
+    }
+  }
+  return aboutLines.join(" ");
 }

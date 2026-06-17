@@ -57,7 +57,8 @@ export function parseDirectoryMarkdown(markdown: string): AgentDirectory {
       }
 
       if (activeCategory && line.startsWith("- [")) {
-        activeCategory.projects.push(parseCategoryProject(line));
+        const description = collectDescription(lines, index);
+        activeCategory.projects.push(parseCategoryProject(line, description));
       }
 
       continue;
@@ -104,13 +105,17 @@ function parseAgentProject(line: string, about: string): AgentProject {
   };
 }
 
-function parseCategoryProject(line: string): CategoryProject {
+function parseCategoryProject(line: string, about: string): CategoryProject {
   const { name, url, fields } = parseProjectFields(line);
   return {
     name,
     url,
+    about,
     repo: fields.repo ?? "",
     icon: fields.icon ?? "/icons/fallback.svg",
+    stars: Number(fields.stars ?? 0),
+    updatedAt: fields.updatedAt ?? "",
+    tags: parseTags(fields.tags),
   };
 }
 
@@ -136,4 +141,8 @@ function parseProjectFields(line: string) {
   }
 
   return { name, url, fields };
+}
+
+function parseTags(value: string | undefined): string[] {
+  return value?.split(",").map((tag) => tag.trim()).filter(Boolean) ?? [];
 }

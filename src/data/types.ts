@@ -11,7 +11,9 @@ export type AgentProject = {
   updatedAt: string;
 };
 
-export type CategoryProject = Pick<AgentProject, "name" | "repo" | "url" | "icon">;
+export type CategoryProject = Pick<AgentProject, "name" | "repo" | "url" | "icon" | "about" | "stars" | "updatedAt"> & {
+  tags: string[];
+};
 
 export type AgentCategory = {
   name: string;

@@ -6,7 +6,7 @@ import type { AgentCategory, AgentProject, CategoryProject } from "./data/types"
 const REPOSITORY_URL = "https://github.com/Dmaner/awesome-agent-projects";
 const THEME_STORAGE_KEY = "awesome-agent-theme";
 const BASE_URL = import.meta.env.BASE_URL;
-const CATEGORY_PROJECT_RENDER_LIMIT = 3;
+const DEFAULT_CATEGORY = "Coding Agents";
 
 type Theme = "light" | "dark";
 
@@ -95,49 +95,77 @@ function ProjectTile({ project }: { project: Pick<AgentProject, "name" | "url" |
 }
 
 function CategoryDirectory({ categories }: { categories: AgentCategory[] }) {
+  const [activeCategoryName, setActiveCategoryName] = useState(() => categories.find((category) => category.name === DEFAULT_CATEGORY)?.name ?? categories[0]?.name ?? "");
+  const activeCategory = useMemo(
+    () => categories.find((category) => category.name === activeCategoryName) ?? categories[0],
+    [activeCategoryName, categories],
+  );
+
+  if (!activeCategory) {
+    return null;
+  }
+
   return (
     <section className="project-section category-section" aria-labelledby="category-heading">
       <div className="section-heading-row">
         <h2 id="category-heading" className="section-heading">
-          Browse by Category
+          Category
         </h2>
       </div>
 
-      <div className="category-grid">
+      <div className="category-tabs" role="tablist" aria-label="Project categories">
         {categories.map((category) => (
-          <CategoryCard key={category.name} category={category} />
+          <button
+            key={category.name}
+            id={`${slugify(category.name)}-tab`}
+            className="category-tab"
+            type="button"
+            role="tab"
+            aria-controls={`${slugify(category.name)}-panel`}
+            aria-selected={category.name === activeCategory.name}
+            onClick={() => setActiveCategoryName(category.name)}
+          >
+            <span>{category.name}</span>
+            <span className="category-tab__count">{category.projectCount} projects</span>
+          </button>
         ))}
+      </div>
+
+      <div
+        id={`${slugify(activeCategory.name)}-panel`}
+        className="category-panel"
+        role="tabpanel"
+        aria-labelledby={`${slugify(activeCategory.name)}-tab`}
+      >
+        <p className="category-panel__description">{activeCategory.description}</p>
+        <ul className="category-projects" aria-label={`${activeCategory.name} projects`}>
+          {activeCategory.projects.map((project) => (
+            <CategoryProjectRow key={`${activeCategory.name}-${project.repo}`} project={project} />
+          ))}
+        </ul>
       </div>
     </section>
   );
 }
 
-function CategoryCard({ category }: { category: AgentCategory }) {
+function CategoryProjectRow({ project }: { project: CategoryProject }) {
   return (
-    <article className="category-card">
-      <div className="category-card__title-row">
-        <h3 className="category-card__title">{category.name}</h3>
-        <span className="category-card__count">{category.projectCount} projects</span>
-      </div>
-      <p className="category-card__description">{category.description}</p>
-      <ul className="category-card__projects" aria-label={`${category.name} projects`}>
-        {category.projects.slice(0, CATEGORY_PROJECT_RENDER_LIMIT).map((project) => (
-          <CategoryProjectLink key={`${category.name}-${project.name}`} project={project} />
-        ))}
-      </ul>
-    </article>
-  );
-}
-
-function CategoryProjectLink({ project }: { project: CategoryProject }) {
-  return (
-    <li>
-      <a className="category-link" href={project.url} target="_blank" rel="noreferrer">
-        <span className="category-link__icon-wrap" aria-hidden="true">
-          <img className="category-link__icon" src={resolveAssetPath(project.icon)} alt="" loading="lazy" />
-        </span>
-        <span>{project.name}</span>
+    <li className="category-project">
+      <a className="category-project__icon-link" href={project.url} target="_blank" rel="noreferrer" aria-label={`Open ${project.name} on GitHub`}>
+        <img className="category-project__icon" src={resolveAssetPath(project.icon)} alt="" loading="lazy" />
       </a>
+      <div className="category-project__body">
+        <div className="category-project__topline">
+          <a className="category-project__name" href={project.url} target="_blank" rel="noreferrer">
+            {project.name}
+          </a>
+          <span className="category-project__stars">{formatStars(project.stars)} stars</span>
+        </div>
+        <p className="category-project__about">{project.about}</p>
+        <span className="category-project__tags">
+          {project.tags.length > 0 ? project.tags.join(", ") : project.repo}
+        </span>
+      </div>
     </li>
   );
 }
@@ -178,4 +206,11 @@ function resolveAssetPath(path: string) {
     return path;
   }
   return `${BASE_URL}${path.replace(/^\/+/, "")}`;
+}
+
+function formatStars(stars: number) {
+  if (stars >= 1000) {
+    return `${(stars / 1000).toFixed(stars >= 100000 ? 0 : 1)}k`;
+  }
+  return String(stars);
 }
