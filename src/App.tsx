@@ -6,6 +6,7 @@ import type { AgentCategory, AgentProject, CategoryProject } from "./data/types"
 const REPOSITORY_URL = "https://github.com/Dmaner/awesome-agent-projects";
 const THEME_STORAGE_KEY = "awesome-agent-theme";
 const BASE_URL = import.meta.env.BASE_URL;
+const CATEGORY_PROJECT_RENDER_LIMIT = 3;
 
 type Theme = "light" | "dark";
 
@@ -120,7 +121,7 @@ function CategoryCard({ category }: { category: AgentCategory }) {
       </div>
       <p className="category-card__description">{category.description}</p>
       <ul className="category-card__projects" aria-label={`${category.name} projects`}>
-        {category.projects.map((project) => (
+        {category.projects.slice(0, CATEGORY_PROJECT_RENDER_LIMIT).map((project) => (
           <CategoryProjectLink key={`${category.name}-${project.name}`} project={project} />
         ))}
       </ul>

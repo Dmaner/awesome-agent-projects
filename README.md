@@ -6,36 +6,19 @@ A compact GitHub Pages directory for open-source AI agent projects.
 
 ```bash
 npm install
-npm run seed:icons
 npm run dev
 ```
 
 ## Content
 
-The source of truth is `content/awesome-agent-projects.md`. It keeps `stars` for data sorting, but the UI intentionally does not render stars.
+The source of truth is `content/awesome-agent-projects.md`. It keeps `stars` and `updated` fields for sorting and validation, but the UI intentionally does not render stars.
 
-Project icons live in `public/icons/` and are rendered in square frames with `object-fit: contain` to avoid distortion. The update script caches GitHub owner avatars first and falls back to generated SVGs only when the repo cannot be resolved.
+Project icons live in `public/icons/` and are rendered in square frames with `object-fit: contain` to avoid distortion.
 
 ## Data Refresh
 
-Dry-run with fixture data:
+Data refresh is intentionally owned by the Codex automation `awesome-agent-projects-daily-refresh`, not by a project-side GitHub crawler script.
 
-```bash
-npm run update:data -- --dry-run --fixture
-```
+The automation updates `content/awesome-agent-projects.md` and `public/icons/`, then runs validation and build checks before committing and pushing changes.
 
-Refresh cached GitHub icons for the current Markdown:
-
-```bash
-npm run cache:icons
-```
-
-Live update from GitHub Search:
-
-```bash
-GITHUB_TOKEN=... npm run update:data
-```
-
-`New` is updated only from repos that are not already present in the Markdown and either recently crossed the 1k-star discovery threshold or appear in GitHub Trending. If no matching new repos are found, the script exits without modifying `content/awesome-agent-projects.md`, preserving the existing `New` section.
-
-The GitHub Actions workflow `.github/workflows/update-data.yml` runs daily and commits refreshed Markdown/icons when the repository is published.
+GitHub Actions only deploys the static site to GitHub Pages after changes are pushed.
