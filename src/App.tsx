@@ -27,7 +27,7 @@ export default function App() {
     <main className="page-shell">
       <SiteHeader theme={theme} onToggleTheme={() => setTheme(theme === "light" ? "dark" : "light")} />
       <ProjectStrip title="Popular" projects={directory.popular} />
-      <ProjectStrip title="New" projects={directory.newest} showViewAll />
+      <ProjectStrip title="New" projects={directory.newest} />
       <CategoryDirectory categories={directory.categories} />
       <SiteFooter />
     </main>
@@ -61,18 +61,13 @@ function SiteHeader({ theme, onToggleTheme }: { theme: Theme; onToggleTheme: () 
   );
 }
 
-function ProjectStrip({ title, projects, showViewAll = false }: { title: string; projects: AgentProject[]; showViewAll?: boolean }) {
+function ProjectStrip({ title, projects }: { title: string; projects: AgentProject[] }) {
   return (
     <section className="project-section" aria-labelledby={`${slugify(title)}-heading`}>
       <div className="section-heading-row">
         <h2 id={`${slugify(title)}-heading`} className="section-heading">
           {title}
         </h2>
-        {showViewAll ? (
-          <a className="view-all" href="#browse-by-category">
-            View all <span aria-hidden="true">-&gt;</span>
-          </a>
-        ) : null}
       </div>
 
       <div className="project-strip">
@@ -100,10 +95,12 @@ function ProjectTile({ project }: { project: Pick<AgentProject, "name" | "url" |
 
 function CategoryDirectory({ categories }: { categories: AgentCategory[] }) {
   return (
-    <section id="browse-by-category" className="category-section" aria-labelledby="category-heading">
-      <h2 id="category-heading" className="section-heading category-section__heading">
-        Browse by Category
-      </h2>
+    <section className="project-section category-section" aria-labelledby="category-heading">
+      <div className="section-heading-row">
+        <h2 id="category-heading" className="section-heading">
+          Browse by Category
+        </h2>
+      </div>
 
       <div className="category-grid">
         {categories.map((category) => (

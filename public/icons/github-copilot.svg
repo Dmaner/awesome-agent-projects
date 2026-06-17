@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="GitHub Copilot Chat">
+  <rect width="96" height="96" rx="18" fill="hsl(317 74% 45%)"/>
+  <circle cx="24" cy="24" r="18" fill="rgba(255,255,255,.18)"/>
+  <circle cx="76" cy="75" r="26" fill="rgba(255,255,255,.12)"/>
+  <text x="48" y="56" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="24" font-weight="800" fill="white">GCC</text>
+</svg>
