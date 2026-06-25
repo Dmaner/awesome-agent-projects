@@ -123,7 +123,7 @@ function CategoryDirectory({ categories }: { categories: AgentCategory[] }) {
             className="category-search__input"
             type="search"
             value={searchQuery}
-            placeholder="Search projects..."
+            placeholder="Search titles..."
             onChange={(event) => setSearchQuery(event.target.value)}
           />
           {searchQuery ? (
@@ -182,7 +182,6 @@ function CategoryDirectory({ categories }: { categories: AgentCategory[] }) {
 
 function CategoryProjectRow({ project, searchTerms }: { project: CategoryProject; searchTerms: string[] }) {
   const tagsText = project.tags.length > 0 ? project.tags.join(", ") : project.repo;
-  const showRepoMatch = searchTerms.length > 0 && matchesSearchTerms(project.repo, searchTerms) && !matchesSearchTerms(`${project.name} ${project.about} ${tagsText}`, searchTerms);
 
   return (
     <li className="category-project">
@@ -196,10 +195,9 @@ function CategoryProjectRow({ project, searchTerms }: { project: CategoryProject
           </a>
           <span className="category-project__stars">{formatStars(project.stars)} stars</span>
         </div>
-        <p className="category-project__about">{highlightText(project.about, searchTerms)}</p>
+        <p className="category-project__about">{project.about}</p>
         <span className="category-project__tags">
-          {highlightText(tagsText, searchTerms)}
-          {showRepoMatch ? <span className="category-project__repo-match">repo: {highlightText(project.repo, searchTerms)}</span> : null}
+          {tagsText}
         </span>
       </div>
     </li>
@@ -287,9 +285,8 @@ function projectMatchesSearch(project: CategoryProject, searchTerms: string[]) {
     return true;
   }
 
-  const tagsText = project.tags.join(" ");
-  return matchesSearchTerms(`${project.name} ${project.repo} ${project.about} ${tagsText}`, searchTerms)
-    || searchTerms.every((term) => [project.name, project.repo, tagsText].some((field) => fuzzyIncludes(field, term)));
+  return matchesSearchTerms(project.name, searchTerms)
+    || searchTerms.every((term) => fuzzyIncludes(project.name, term));
 }
 
 function matchesSearchTerms(value: string, searchTerms: string[]) {
