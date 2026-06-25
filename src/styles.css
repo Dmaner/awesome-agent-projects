@@ -475,6 +475,7 @@ button {
 .category-project__topline {
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
   gap: 14px;
   min-width: 0;
 }
@@ -493,6 +494,14 @@ button {
 .category-project__name:hover,
 .category-project__name:focus-visible {
   color: var(--accent);
+}
+
+.category-project__category {
+  flex: 0 0 auto;
+  color: var(--muted-light);
+  font-size: clamp(0.68rem, 0.64rem + 0.1vw, 0.76rem);
+  font-style: italic;
+  white-space: nowrap;
 }
 
 .category-project__stars {

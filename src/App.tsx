@@ -9,6 +9,10 @@ const BASE_URL = import.meta.env.BASE_URL;
 const DEFAULT_CATEGORY = "Coding Agents";
 
 type Theme = "light" | "dark";
+type CategorySearchResult = {
+  project: CategoryProject;
+  categoryName?: string;
+};
 
 export default function App() {
   const directory = useMemo(() => parseDirectoryMarkdown(directoryMarkdown), []);
@@ -102,9 +106,10 @@ function CategoryDirectory({ categories }: { categories: AgentCategory[] }) {
     [activeCategoryName, categories],
   );
   const searchTerms = useMemo(() => getSearchTerms(searchQuery), [searchQuery]);
-  const filteredProjects = useMemo(
-    () => activeCategory?.projects.filter((project) => projectMatchesSearch(project, searchTerms)) ?? [],
-    [activeCategory, searchTerms],
+  const isSearching = searchTerms.length > 0;
+  const displayedProjects = useMemo<CategorySearchResult[]>(
+    () => isSearching ? getGlobalTitleMatches(categories, searchTerms) : activeCategory?.projects.map((project) => ({ project })) ?? [],
+    [activeCategory, categories, isSearching, searchTerms],
   );
 
   if (!activeCategory) {
@@ -159,28 +164,28 @@ function CategoryDirectory({ categories }: { categories: AgentCategory[] }) {
         aria-labelledby={`${slugify(activeCategory.name)}-tab`}
       >
         <div className="category-panel__summary">
-          <p className="category-panel__description">{activeCategory.description}</p>
-          {searchTerms.length > 0 ? (
+          <p className="category-panel__description">{isSearching ? "Searching all categories by project title." : activeCategory.description}</p>
+          {isSearching ? (
             <span className="category-panel__result-count">
-              {filteredProjects.length} of {activeCategory.projects.length}
+              {displayedProjects.length} global {displayedProjects.length === 1 ? "match" : "matches"}
             </span>
           ) : null}
         </div>
-        {filteredProjects.length > 0 ? (
-          <ul className="category-projects" aria-label={`${activeCategory.name} projects`}>
-            {filteredProjects.map((project) => (
-              <CategoryProjectRow key={`${activeCategory.name}-${project.repo}`} project={project} searchTerms={searchTerms} />
+        {displayedProjects.length > 0 ? (
+          <ul className="category-projects" aria-label={isSearching ? "Global title search results" : `${activeCategory.name} projects`}>
+            {displayedProjects.map(({ project, categoryName }) => (
+              <CategoryProjectRow key={`${categoryName ?? activeCategory.name}-${project.repo}`} project={project} categoryName={categoryName} searchTerms={searchTerms} />
             ))}
           </ul>
         ) : (
-          <p className="category-projects__empty">No matching projects</p>
+          <p className="category-projects__empty">{isSearching ? "No matching project titles" : "No matching projects"}</p>
         )}
       </div>
     </section>
   );
 }
 
-function CategoryProjectRow({ project, searchTerms }: { project: CategoryProject; searchTerms: string[] }) {
+function CategoryProjectRow({ project, categoryName, searchTerms }: { project: CategoryProject; categoryName?: string; searchTerms: string[] }) {
   const tagsText = project.tags.length > 0 ? project.tags.join(", ") : project.repo;
 
   return (
@@ -193,6 +198,7 @@ function CategoryProjectRow({ project, searchTerms }: { project: CategoryProject
           <a className="category-project__name" href={project.url} target="_blank" rel="noreferrer">
             {highlightText(project.name, searchTerms)}
           </a>
+          {categoryName ? <span className="category-project__category">{categoryName}</span> : null}
           <span className="category-project__stars">{formatStars(project.stars)} stars</span>
         </div>
         <p className="category-project__about">{project.about}</p>
@@ -287,6 +293,23 @@ function projectMatchesSearch(project: CategoryProject, searchTerms: string[]) {
 
   return matchesSearchTerms(project.name, searchTerms)
     || searchTerms.every((term) => fuzzyIncludes(project.name, term));
+}
+
+function getGlobalTitleMatches(categories: AgentCategory[], searchTerms: string[]): CategorySearchResult[] {
+  const seenRepos = new Set<string>();
+  const results: CategorySearchResult[] = [];
+
+  for (const category of categories) {
+    for (const project of category.projects) {
+      const repoKey = project.repo.toLowerCase();
+      if (!seenRepos.has(repoKey) && projectMatchesSearch(project, searchTerms)) {
+        seenRepos.add(repoKey);
+        results.push({ project, categoryName: category.name });
+      }
+    }
+  }
+
+  return results.sort((left, right) => right.project.stars - left.project.stars);
 }
 
 function matchesSearchTerms(value: string, searchTerms: string[]) {
