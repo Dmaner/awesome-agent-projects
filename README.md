@@ -21,4 +21,14 @@ Data refresh is intentionally owned by the Codex automation `awesome-agent-proje
 
 The automation updates `content/awesome-agent-projects.md` and `public/icons/`, then runs validation and build checks before committing and pushing changes.
 
+After appending or refreshing category entries, run:
+
+```bash
+npm run sort:categories
+npm run validate:data
+npm run build
+```
+
+`npm run sort:categories` only rewrites the `Categories` section order so each category lists projects by `stars` descending. It does not fetch GitHub data, change icons, or remove category projects.
+
 GitHub Actions only deploys the static site to GitHub Pages after changes are pushed.
