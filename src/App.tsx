@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import directoryMarkdown from "../content/awesome-agent-projects.md?raw";
 import { parseDirectoryMarkdown } from "./data/markdown";
 import type { AgentCategory, AgentProject, CategoryProject } from "./data/types";
@@ -96,9 +96,15 @@ function ProjectTile({ project }: { project: Pick<AgentProject, "name" | "url" |
 
 function CategoryDirectory({ categories }: { categories: AgentCategory[] }) {
   const [activeCategoryName, setActiveCategoryName] = useState(() => categories.find((category) => category.name === DEFAULT_CATEGORY)?.name ?? categories[0]?.name ?? "");
+  const [searchQuery, setSearchQuery] = useState("");
   const activeCategory = useMemo(
     () => categories.find((category) => category.name === activeCategoryName) ?? categories[0],
     [activeCategoryName, categories],
+  );
+  const searchTerms = useMemo(() => getSearchTerms(searchQuery), [searchQuery]);
+  const filteredProjects = useMemo(
+    () => activeCategory?.projects.filter((project) => projectMatchesSearch(project, searchTerms)) ?? [],
+    [activeCategory, searchTerms],
   );
 
   if (!activeCategory) {
@@ -107,10 +113,25 @@ function CategoryDirectory({ categories }: { categories: AgentCategory[] }) {
 
   return (
     <section className="project-section category-section" aria-labelledby="category-heading">
-      <div className="section-heading-row">
+      <div className="section-heading-row category-heading-row">
         <h2 id="category-heading" className="section-heading">
           Category
         </h2>
+        <label className="category-search" aria-label="Search category projects">
+          <SearchIcon />
+          <input
+            className="category-search__input"
+            type="search"
+            value={searchQuery}
+            placeholder="Search projects..."
+            onChange={(event) => setSearchQuery(event.target.value)}
+          />
+          {searchQuery ? (
+            <button className="category-search__clear" type="button" aria-label="Clear search" onClick={() => setSearchQuery("")}>
+              <ClearIcon />
+            </button>
+          ) : null}
+        </label>
       </div>
 
       <div className="category-tabs" role="tablist" aria-label="Project categories">
@@ -137,18 +158,32 @@ function CategoryDirectory({ categories }: { categories: AgentCategory[] }) {
         role="tabpanel"
         aria-labelledby={`${slugify(activeCategory.name)}-tab`}
       >
-        <p className="category-panel__description">{activeCategory.description}</p>
-        <ul className="category-projects" aria-label={`${activeCategory.name} projects`}>
-          {activeCategory.projects.map((project) => (
-            <CategoryProjectRow key={`${activeCategory.name}-${project.repo}`} project={project} />
-          ))}
-        </ul>
+        <div className="category-panel__summary">
+          <p className="category-panel__description">{activeCategory.description}</p>
+          {searchTerms.length > 0 ? (
+            <span className="category-panel__result-count">
+              {filteredProjects.length} of {activeCategory.projects.length}
+            </span>
+          ) : null}
+        </div>
+        {filteredProjects.length > 0 ? (
+          <ul className="category-projects" aria-label={`${activeCategory.name} projects`}>
+            {filteredProjects.map((project) => (
+              <CategoryProjectRow key={`${activeCategory.name}-${project.repo}`} project={project} searchTerms={searchTerms} />
+            ))}
+          </ul>
+        ) : (
+          <p className="category-projects__empty">No matching projects</p>
+        )}
       </div>
     </section>
   );
 }
 
-function CategoryProjectRow({ project }: { project: CategoryProject }) {
+function CategoryProjectRow({ project, searchTerms }: { project: CategoryProject; searchTerms: string[] }) {
+  const tagsText = project.tags.length > 0 ? project.tags.join(", ") : project.repo;
+  const showRepoMatch = searchTerms.length > 0 && matchesSearchTerms(project.repo, searchTerms) && !matchesSearchTerms(`${project.name} ${project.about} ${tagsText}`, searchTerms);
+
   return (
     <li className="category-project">
       <a className="category-project__icon-link" href={project.url} target="_blank" rel="noreferrer" aria-label={`Open ${project.name} on GitHub`}>
@@ -157,13 +192,14 @@ function CategoryProjectRow({ project }: { project: CategoryProject }) {
       <div className="category-project__body">
         <div className="category-project__topline">
           <a className="category-project__name" href={project.url} target="_blank" rel="noreferrer">
-            {project.name}
+            {highlightText(project.name, searchTerms)}
           </a>
           <span className="category-project__stars">{formatStars(project.stars)} stars</span>
         </div>
-        <p className="category-project__about">{project.about}</p>
+        <p className="category-project__about">{highlightText(project.about, searchTerms)}</p>
         <span className="category-project__tags">
-          {project.tags.length > 0 ? project.tags.join(", ") : project.repo}
+          {highlightText(tagsText, searchTerms)}
+          {showRepoMatch ? <span className="category-project__repo-match">repo: {highlightText(project.repo, searchTerms)}</span> : null}
         </span>
       </div>
     </li>
@@ -197,6 +233,28 @@ function SunIcon() {
   );
 }
 
+function SearchIcon() {
+  return (
+    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+      <path
+        d="M10.8 4.2a6.6 6.6 0 1 1 0 13.2 6.6 6.6 0 0 1 0-13.2Zm0 1.8a4.8 4.8 0 1 0 0 9.6 4.8 4.8 0 0 0 0-9.6Zm5.1 9.1 4 4a1 1 0 0 1-1.4 1.4l-4-4 1.4-1.4Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
+function ClearIcon() {
+  return (
+    <svg viewBox="0 0 24 24" role="img" aria-hidden="true">
+      <path
+        d="m12 10.6 4.3-4.3 1.4 1.4-4.3 4.3 4.3 4.3-1.4 1.4-4.3-4.3-4.3 4.3-1.4-1.4 4.3-4.3-4.3-4.3 1.4-1.4 4.3 4.3Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
 function slugify(value: string) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 }
@@ -213,4 +271,71 @@ function formatStars(stars: number) {
     return `${(stars / 1000).toFixed(stars >= 100000 ? 0 : 1)}k`;
   }
   return String(stars);
+}
+
+function getSearchTerms(query: string) {
+  return query
+    .trim()
+    .toLowerCase()
+    .split(/\s+/)
+    .map((term) => term.trim())
+    .filter(Boolean);
+}
+
+function projectMatchesSearch(project: CategoryProject, searchTerms: string[]) {
+  if (searchTerms.length === 0) {
+    return true;
+  }
+
+  const tagsText = project.tags.join(" ");
+  return matchesSearchTerms(`${project.name} ${project.repo} ${project.about} ${tagsText}`, searchTerms)
+    || searchTerms.every((term) => [project.name, project.repo, tagsText].some((field) => fuzzyIncludes(field, term)));
+}
+
+function matchesSearchTerms(value: string, searchTerms: string[]) {
+  const normalizedValue = normalizeSearchValue(value);
+  return searchTerms.every((term) => normalizedValue.includes(term));
+}
+
+function fuzzyIncludes(value: string, term: string) {
+  if (term.length < 3) {
+    return false;
+  }
+
+  const normalizedValue = normalizeSearchValue(value);
+  let termIndex = 0;
+  for (const character of normalizedValue) {
+    if (character === term[termIndex]) {
+      termIndex += 1;
+      if (termIndex === term.length) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+function normalizeSearchValue(value: string) {
+  return value.toLowerCase();
+}
+
+function highlightText(text: string, searchTerms: string[]): ReactNode {
+  const exactTerms = searchTerms
+    .filter((term) => text.toLowerCase().includes(term))
+    .sort((left, right) => right.length - left.length);
+
+  if (exactTerms.length === 0) {
+    return text;
+  }
+
+  const pattern = new RegExp(`(${exactTerms.map(escapeRegExp).join("|")})`, "gi");
+  return text.split(pattern).map((part, index) => (
+    exactTerms.some((term) => part.toLowerCase() === term)
+      ? <mark className="search-highlight" key={`${part}-${index}`}>{part}</mark>
+      : part
+  ));
+}
+
+function escapeRegExp(value: string) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
