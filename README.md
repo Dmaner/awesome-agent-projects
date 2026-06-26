@@ -5,7 +5,7 @@
 <h1 align="center">Awesome Agent Projects</h1>
 
 <p align="center">
-  <strong>A daily refreshed directory of active open-source AI agent projects.</strong>
+  <strong>A directory of active open-source AI agent projects, refreshed daily.</strong>
 </p>
 
 <p align="center">
@@ -14,31 +14,32 @@
   <a href="https://github.com/Dmaner/awesome-agent-projects/issues">Suggest a project</a>
 </p>
 
-Find coding agents, browser agents, research agents, data agents, workflow builders, multi-agent frameworks, MCP tooling, and agent infrastructure without digging through stale lists.
+Stop digging through stale lists. This directory tracks coding agents, browser agents, research agents, data agents, workflow builders, multi-agent frameworks, MCP (Model Context Protocol) tooling, and agent infrastructure — all in one place.
 
-This project keeps a compact web directory for humans, plus structured files that search engines and AI crawlers can read directly.
+The web directory is built for humans. Under the hood, structured data files let search engines and AI crawlers index the list directly.
 
 ## Categories
 
 | Category | What belongs here |
 | --- | --- |
-| Coding Agents | Agents that write, refactor, review, or operate on codebases. |
+| Coding Agents | Code generation, refactoring, review, and codebase automation. |
 | AI Assistants | Personal, team, and conversational assistant systems. |
 | Research Agents | Deep research, scientific workflows, papers, and citation-heavy agents. |
-| Data Agents | RAG, data analysis, knowledge graphs, retrieval, and database agents. |
-| Browser Agents | Agents that operate browsers, websites, desktops, or computer-use workflows. |
+| Data Agents | RAG (retrieval-augmented generation), data analysis, knowledge graphs, and database agents. |
+| Browser Agents | Browser automation, web interaction, desktop control, and computer-use workflows. |
 | Workflow Automation | Agentic workflow builders, orchestrators, and automation platforms. |
 | Multi-Agent Frameworks | Swarms, teams, role-playing agents, and multi-agent coordination. |
-| Agent Infrastructure | SDKs, runtimes, memory layers, MCP tooling, sandboxes, and skills. |
-| DevTools & CLIs | Developer tools, terminal tools, productivity helpers, and agent-facing CLIs. |
-| Vertical Agents | Domain-specific agents for finance, security, education, marketing, office work, and other verticals. |
+| Agent Infrastructure | SDKs, runtimes, memory layers, MCP tooling, sandboxes, and skill systems. |
+| DevTools & CLIs | Developer tools, terminal helpers, productivity utilities, and agent-facing CLIs. |
+| Vertical Agents | Domain-specific agents for finance, security, education, marketing, and office work. |
 
-## What Counts As An Agent Project
+## What Counts as an Agent Project
 
-A good candidate usually has most of these traits:
+A project belongs here if it checks most of these boxes:
 
 - It runs, builds, evaluates, or manages AI agents.
-- It gives an LLM tools, memory, workflow control, browser/computer access, codebase access, or multi-agent coordination.
-- It is open source and has a public GitHub repository.
+- It equips an LLM with tools, memory, workflow control, or multi-agent coordination.
+- It provides browser access, desktop control, or codebase access.
+- It is open source with a public GitHub repository.
 - It is actively maintained or recently active.
 - It is more than a prompt collection, tutorial-only repo, generic AI app, or static resource list.
