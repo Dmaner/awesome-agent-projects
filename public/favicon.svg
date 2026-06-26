@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Awesome Agent Projects">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="0.55" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="node" x1="17" y1="17" x2="47" y2="47" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#c7d2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <path d="M19 42.5 32 17l13 25.5h-7.1l-2.4-5.3h-7.1L26 42.5h-7Zm12.2-12h1.6L32 28.8l-.8 1.7Z" fill="url(#node)"/>
+  <circle cx="18" cy="45" r="5" fill="#67e8f9"/>
+  <circle cx="46" cy="45" r="5" fill="#a7f3d0"/>
+  <circle cx="32" cy="15" r="5" fill="#fef3c7"/>
+  <path d="M22.4 42.4 29.6 25M41.6 42.4 34.4 25M23 45h18" fill="none" stroke="#e0f2fe" stroke-width="2.6" stroke-linecap="round" opacity=".9"/>
+</svg>

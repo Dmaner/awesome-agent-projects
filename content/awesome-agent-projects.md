@@ -343,7 +343,7 @@ Description: Frameworks for building multi-agent systems.
 - [Pentest Swarm AI](https://github.com/Armur-Ai/Pentest-Swarm-AI) | repo: Armur-Ai/Pentest-Swarm-AI | icon: /icons/armur-ai-pentest-swarm-ai.png | stars: 1961 | updated: 2026-06-25 | tags: ai-agents, bug-bounty, cybersecurity, offensive-security
   Autonomous penetration testing using a swarm of AI agents. Orchestrates recon, classification, exploitation, and reporting specialists with ReAct reasoning — supports bug bounty, continuous monitoring, and CTF modes. Built with Go, Claude API, and 7+ native security tools.
 
-### Agent Infrastructure | 50 projects
+### Agent Infrastructure | 51 projects
 
 Description: Libraries and tools for agent infrastructure.
 
@@ -373,6 +373,8 @@ Description: Libraries and tools for agent infrastructure.
   Production-grade engineering skills for AI coding agents.
 - [Rtk](https://github.com/rtk-ai/rtk) | repo: rtk-ai/rtk | icon: /icons/rtk-ai-rtk.png | stars: 66142 | updated: 2026-06-26 | tags: agentic-coding, ai-coding, anthropic, claude-code
   CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+- [Pi](https://github.com/earendil-works/pi) | repo: earendil-works/pi | icon: /icons/earendil-works-pi.png | stars: 65620 | updated: 2026-06-26 | tags: coding-agent, agent-framework, workflow
+  AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
 - [Mem0](https://github.com/mem0ai/mem0) | repo: mem0ai/mem0 | icon: /icons/mem0ai-mem0.png | stars: 59465 | updated: 2026-06-26 | tags: agents, ai, ai-agents, application
   Universal memory layer for AI Agents
 - [Ponytail](https://github.com/DietrichGebert/ponytail) | repo: DietrichGebert/ponytail | icon: /icons/dietrichgebert-ponytail.png | stars: 58279 | updated: 2026-06-26 | tags: agent-skills, ai-agents, claude, claude-code
@@ -448,7 +450,7 @@ Description: Libraries and tools for agent infrastructure.
 - [Agent Field](https://github.com/Agent-Field/agentfield) | repo: Agent-Field/agentfield | icon: /icons/agent-field-agentfield.png | stars: 2231 | updated: 2026-06-26 | tags: agent, agent-auth, agent-authentication, agent-indentity
   Build, run and scale AI agents like API and microservices - observable,auditable and identity-aware from day one.
 
-### DevTools & CLIs | 8 projects
+### DevTools & CLIs | 7 projects
 
 Description: Developer tools, CLIs and productivity helpers.
 
@@ -458,8 +460,6 @@ Description: Developer tools, CLIs and productivity helpers.
   A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io
 - [Open Design](https://github.com/nexu-io/open-design) | repo: nexu-io/open-design | icon: /icons/nexu-io-open-design.png | stars: 71230 | updated: 2026-06-26 | tags: agent-skills, ai-agents, ai-design, byok
   🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
-- [Pi](https://github.com/earendil-works/pi) | repo: earendil-works/pi | icon: /icons/earendil-works-pi.png | stars: 65620 | updated: 2026-06-26 | tags: coding-agent, agent-framework, workflow
-  AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
 - [Warp](https://github.com/warpdotdev/warp) | repo: warpdotdev/warp | icon: /icons/warpdotdev-warp.png | stars: 62396 | updated: 2026-06-26 | tags: bash, linux, macos, rust
   Warp is an agentic development environment, born out of the terminal.
 - [LiteLLM](https://github.com/BerriAI/litellm) | repo: BerriAI/litellm | icon: /icons/berriai-litellm.png | stars: 51577 | updated: 2026-06-26 | tags: ai-gateway, anthropic, azure-openai, bedrock
