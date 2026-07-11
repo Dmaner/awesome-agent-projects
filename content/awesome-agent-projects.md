@@ -108,6 +108,8 @@ Description: Agents that help write, refactor and review code.
   Sub2API is an open-source relay platform that unifies Claude, OpenAI, Gemini, and Antigravity subscriptions into a single endpoint. It supports account sharing and cost-sharing, with seamless native tool compatibility.
 - [Openclaude](https://github.com/Gitlawb/openclaude) | repo: Gitlawb/openclaude | icon: /icons/gitlawb-openclaude.png | stars: 29532 | updated: 2026-06-30 | tags: ai, ai-agent, ai-tools, cli
   runs anywhere. uses anything
+- [Codex Plugin Cc](https://github.com/openai/codex-plugin-cc) | repo: openai/codex-plugin-cc | icon: /icons/openai-codex-plugin-cc.png | stars: 27566 | updated: 2026-07-11 | tags: coding-agent, agent-framework, workflow
+  Use Codex from Claude Code to review code or delegate tasks.
 - [Claude HUD](https://github.com/jarrodwatts/claude-hud) | repo: jarrodwatts/claude-hud | icon: /icons/jarrodwatts-claude-hud.png | stars: 25936 | updated: 2026-06-30 | tags: anthropic, claude, claude-code, cli
   A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress
 - [Serena](https://github.com/oraios/serena) | repo: oraios/serena | icon: /icons/oraios-serena.png | stars: 25913 | updated: 2026-06-30 | tags: agent, ai, ai-coding, claude
@@ -138,8 +140,6 @@ Description: Agents that help write, refactor and review code.
   Mobile and Web client for Codex and Claude Code, with realtime voice, encryption and fully featured
 - [Compound Engineering Plugin](https://github.com/EveryInc/compound-engineering-plugin) | repo: EveryInc/compound-engineering-plugin | icon: /icons/everyinc-compound-engineering-plugin.png | stars: 22256 | updated: 2026-06-30 | tags: compound, engineering
   Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more
-- [Codex Plugin Cc](https://github.com/openai/codex-plugin-cc) | repo: openai/codex-plugin-cc | icon: /icons/openai-codex-plugin-cc.png | stars: 21869 | updated: 2026-06-30 | tags: coding-agent, agent-framework, workflow
-  Use Codex from Claude Code to review code or delegate tasks.
 - [Pm Skills](https://github.com/phuryn/pm-skills) | repo: phuryn/pm-skills | icon: /icons/phuryn-pm-skills.png | stars: 21729 | updated: 2026-06-30 | tags: agent-skill-repository, agent-skills, agentic-skills, claude-code-marketplace
   PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.
 - [Claude Code](https://github.com/claude-code-best/claude-code) | repo: claude-code-best/claude-code | icon: /icons/claude-code-best-claude-code.png | stars: 20554 | updated: 2026-06-30 | tags: coding-agent, agent-framework, workflow
@@ -448,7 +448,7 @@ Description: Agents that operate browsers and the web.
 
 - [Browser Use](https://github.com/browser-use/browser-use) | repo: browser-use/browser-use | icon: /icons/browser-use-browser-use.png | stars: 104204 | updated: 2026-07-11 | tags: ai-agents, ai-tools, browser-automation, browser-use
   🌐 Make websites accessible for AI agents. Automate tasks online with ease.
-- [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | repo: ChromeDevTools/chrome-devtools-mcp | icon: /icons/chromedevtools-chrome-devtools-mcp.png | stars: 45910 | updated: 2026-07-05 | tags: browser, chrome, chrome-devtools, debugging
+- [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) | repo: ChromeDevTools/chrome-devtools-mcp | icon: /icons/chromedevtools-chrome-devtools-mcp.png | stars: 46665 | updated: 2026-07-11 | tags: browser, chrome, chrome-devtools, debugging
   Chrome DevTools for coding agents
 - [Agent Browser](https://github.com/vercel-labs/agent-browser) | repo: vercel-labs/agent-browser | icon: /icons/vercel-labs-agent-browser.png | stars: 37864 | updated: 2026-07-05 | tags: agent-framework, workflow, mcp
   Browser automation CLI for AI agents
@@ -458,12 +458,12 @@ Description: Agents that operate browsers and the web.
   Playwright MCP server
 - [CloakBrowser](https://github.com/CloakHQ/CloakBrowser) | repo: CloakHQ/CloakBrowser | icon: /icons/cloakhq-cloakbrowser.png | stars: 27424 | updated: 2026-06-30 | tags: ai-agents, anti-detect, antidetect-browser, bot-detection
   Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.
+- [Page Agent](https://github.com/alibaba/page-agent) | repo: alibaba/page-agent | icon: /icons/alibaba-page-agent.png | stars: 25962 | updated: 2026-07-11 | tags: agent, ai, ai-agents, browser-automation
+  JavaScript in-page GUI agent. Control web interfaces with natural language.
 - [OpenCLI](https://github.com/jackwener/OpenCLI) | repo: jackwener/OpenCLI | icon: /icons/jackwener-opencli.png | stars: 25632 | updated: 2026-06-30 | tags: ai-agent, ai-agents, ai-tools, browser-automation
   Make Any Website into CLI & Use your logged-in browser by AI agent.
 - [Stagehand](https://github.com/browserbase/stagehand) | repo: browserbase/stagehand | icon: /icons/browserbase-stagehand.png | stars: 23288 | updated: 2026-06-30 | tags: agents, ai, llms, playwright
   The SDK For Browser Agents
-- [Page Agent](https://github.com/alibaba/page-agent) | repo: alibaba/page-agent | icon: /icons/alibaba-page-agent.png | stars: 20640 | updated: 2026-06-30 | tags: agent, ai, ai-agents, browser-automation
-  JavaScript in-page GUI agent. Control web interfaces with natural language.
 - [Obscura](https://github.com/h4ckf0r0day/obscura) | repo: h4ckf0r0day/obscura | icon: /icons/h4ckf0r0day-obscura.png | stars: 17891 | updated: 2026-07-07 | tags: antidetect, antidetect-browser, browser, browser-automation
   The headless browser for AI agents and web scraping
 - [Maxun](https://github.com/getmaxun/maxun) | repo: getmaxun/maxun | icon: /icons/getmaxun-maxun.png | stars: 16323 | updated: 2026-07-03 | tags: agents, api, automation, browser-automation
@@ -851,6 +851,8 @@ Description: Libraries and tools for agent infrastructure.
   One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.
 - [Voltagent](https://github.com/VoltAgent/voltagent) | repo: VoltAgent/voltagent | icon: /icons/voltagent-voltagent.png | stars: 9859 | updated: 2026-06-30 | tags: agents, ai, ai-agents, ai-agents-framework
   AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework
+- [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) | repo: TencentCloud/CubeSandbox | icon: /icons/tencentcloud-cubesandbox.png | stars: 9655 | updated: 2026-07-11 | tags: sandbox, container, agents
+  Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
 - [MCP](https://github.com/awslabs/mcp) | repo: awslabs/mcp | icon: /icons/awslabs-mcp.png | stars: 9355 | updated: 2026-06-30 | tags: aws, mcp, mcp-client, mcp-clients
   Open source MCP Servers for AWS
 - [Visual Explainer](https://github.com/nicobailon/visual-explainer) | repo: nicobailon/visual-explainer | icon: /icons/nicobailon-visual-explainer.png | stars: 9175 | updated: 2026-07-05 | tags: rag, agent-framework, workflow
@@ -867,6 +869,8 @@ Description: Libraries and tools for agent infrastructure.
   Build autonomous AI agents in Python.
 - [Lamda](https://github.com/firerpa/lamda) | repo: firerpa/lamda | icon: /icons/firerpa-lamda.png | stars: 7858 | updated: 2026-07-07 | tags: adb, agents, ai, android
   Android Full-Stack Device Control Platform: WebRTC/H.264 remote desktop, UI/OCR/image-matching automation, one-click MITM, built-in Frida, proxy/VPN/frp/P2P networking, MCP/Agent, 160+ APIs, designed for multi-device clusters and engineered deployments.
+- [DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | repo: wonderwhy-er/DesktopCommanderMCP | icon: /icons/wonderwhy-er-desktopcommandermcp.png | stars: 7672 | updated: 2026-07-11 | tags: agent, ai, code-analysis, code-generation
+  This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities
 - [HTML Anything](https://github.com/nexu-io/html-anything) | repo: nexu-io/html-anything | icon: /icons/nexu-io-html-anything.png | stars: 7506 | updated: 2026-07-04 | tags: agent-skills, agentic, ai-agents, ai-design
   ✨ The agentic HTML editor — your local AI agent writes the HTML, you ship it. 🚀 75 Skills × 9 Surfaces (magazine · deck · poster · XHS / tweet · prototype · data report · Hyperframes) 🛡️ Sandboxed preview · 📤 1-click to WeChat / X / Zhihu / HTML / PNG 🔑 Zero API key — Claude Code / Cursor / Codex / Gemini / Copilot / OpenCode / Qwen / Aider.
 - [OpenShell](https://github.com/NVIDIA/OpenShell) | repo: NVIDIA/OpenShell | icon: /icons/nvidia-openshell.png | stars: 7354 | updated: 2026-07-02 | tags: agent-framework, workflow, mcp
@@ -877,24 +881,20 @@ Description: Libraries and tools for agent infrastructure.
   A community driven registry service for Model Context Protocol (MCP) servers.
 - [Flue](https://github.com/withastro/flue) | repo: withastro/flue | icon: /icons/withastro-flue.png | stars: 6962 | updated: 2026-06-30 | tags: agent-framework, workflow, mcp
   The sandbox agent framework.
+- [Stitch Skills](https://github.com/google-labs-code/stitch-skills) | repo: google-labs-code/stitch-skills | icon: /icons/google-labs-code-stitch-skills.png | stars: 6918 | updated: 2026-07-11 | tags: agent-framework, workflow, mcp
+  A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
 - [Claude Video](https://github.com/bradautomates/claude-video) | repo: bradautomates/claude-video | icon: /icons/bradautomates-claude-video.png | stars: 6825 | updated: 2026-07-10 | tags: agent-infrastructure, mcp, workflow
   Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.
 - [ClawRouter](https://github.com/BlockRunAI/ClawRouter) | repo: BlockRunAI/ClawRouter | icon: /icons/blockrunai-clawrouter.png | stars: 6618 | updated: 2026-07-04 | tags: ai, ai-agents, anthropic, cost-optimization
   The agent-native LLM router for OpenClaw. 41+ models, <1ms routing, USDC payments on Base & Solana via x402.
 - [Sandcastle](https://github.com/mattpocock/sandcastle) | repo: mattpocock/sandcastle | icon: /icons/mattpocock-sandcastle.png | stars: 6616 | updated: 2026-07-04 | tags: agent-framework, workflow, mcp
   Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()
-- [CubeSandbox](https://github.com/TencentCloud/CubeSandbox) | repo: TencentCloud/CubeSandbox | icon: /icons/tencentcloud-cubesandbox.png | stars: 6591 | updated: 2026-06-30 | tags: agents, container, sandbox
-  Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
-- [DesktopCommanderMCP](https://github.com/wonderwhy-er/DesktopCommanderMCP) | repo: wonderwhy-er/DesktopCommanderMCP | icon: /icons/wonderwhy-er-desktopcommandermcp.png | stars: 6478 | updated: 2026-07-09 | tags: agent-infrastructure, mcp, workflow
-  This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities
 - [TencentDB Agent Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory) | repo: TencentCloud/TencentDB-Agent-Memory | icon: /icons/tencentcloud-tencentdb-agent-memory.png | stars: 6416 | updated: 2026-07-04 | tags: agent, ai-agent, embedding, llm
   TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.
 - [Windows MCP](https://github.com/CursorTouch/Windows-MCP) | repo: CursorTouch/Windows-MCP | icon: /icons/cursortouch-windows-mcp.png | stars: 6380 | updated: 2026-07-10 | tags: ai, desktop, mcp, tools
   MCP Server for Computer Use in Windows
 - [Harness SDK](https://github.com/strands-agents/harness-sdk) | repo: strands-agents/harness-sdk | icon: /icons/strands-agents-harness-sdk.png | stars: 6364 | updated: 2026-06-30 | tags: agent-framework, agentic, agentic-ai, agents
   Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.
-- [Stitch Skills](https://github.com/google-labs-code/stitch-skills) | repo: google-labs-code/stitch-skills | icon: /icons/google-labs-code-stitch-skills.png | stars: 6358 | updated: 2026-07-04 | tags: agent-framework, workflow, mcp
-  A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
 - [XcodeBuildMCP](https://github.com/getsentry/XcodeBuildMCP) | repo: getsentry/XcodeBuildMCP | icon: /icons/getsentry-xcodebuildmcp.png | stars: 6054 | updated: 2026-07-09 | tags: mcp, mcp-server, model-context-protocol, model-context-protocol-servers
   A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
 - [Honcho](https://github.com/plastic-labs/honcho) | repo: plastic-labs/honcho | icon: /icons/plastic-labs-honcho.png | stars: 5738 | updated: 2026-07-04 | tags: agent-memory, ai, ai-agents, ai-memory
