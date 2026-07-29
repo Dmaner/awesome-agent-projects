@@ -66,53 +66,8 @@ Daily refreshed open-source agent projects, grouped for builders.
 
 ## New
 
-- [Refly](https://github.com/refly-ai/refly) | repo: refly-ai/refly | icon: /icons/refly-ai-refly.png | category: Agent Infrastructure | source: github-search | discovered: 2026-07-29 | stars: 7467 | updated: 2026-07-28 | tags: agent, agent-skills, automation, claude
-  Open-source agent skills builder for defining reusable workflow skills across Claude Code, Cursor, Codex, and related coding agents.
-
-- [Open Slide](https://github.com/1weiho/open-slide) | repo: 1weiho/open-slide | icon: /icons/1weiho-open-slide.png | category: Vertical Agents | source: github-search | discovered: 2026-07-29 | stars: 6031 | updated: 2026-07-28 | tags: agent, react, slides, vertical-agent
-  Slide framework built for agents, giving presentation-generation workflows a structured React-based output target.
-
-- [MS Agent](https://github.com/modelscope/ms-agent) | repo: modelscope/ms-agent | icon: /icons/modelscope-ms-agent.png | category: Multi-Agent Frameworks | source: github-search | discovered: 2026-07-29 | stars: 4347 | updated: 2026-07-28 | tags: agentic-insight, agentic-search, chat-bot, code-generation
-  Lightweight framework from ModelScope for agentic execution of complex tasks with memory, search, and code-generation hooks.
-
-- [Eve](https://github.com/vercel/eve) | repo: vercel/eve | icon: /icons/vercel-eve.png | category: Agent Infrastructure | source: github-search | discovered: 2026-07-29 | stars: 4152 | updated: 2026-07-28 | tags: agent, framework, harness, javascript
-  Vercel framework for building agents around a typed harness, markdown-oriented workflows, sandboxing, and TypeScript tooling.
-
-- [Obsidian Second Brain](https://github.com/eugeniughelbur/obsidian-second-brain) | repo: eugeniughelbur/obsidian-second-brain | icon: /icons/eugeniughelbur-obsidian-second-brain.png | category: Agent Infrastructure | source: github-search | discovered: 2026-07-29 | stars: 3685 | updated: 2026-07-28 | tags: agent-skills, ai-agents, ai-note-taking, ai-second-brain
-  Persistent markdown memory layer for Claude Code and other CLI agents, with semantic search, self-rewriting notes, and scheduled maintenance agents.
-
-- [Harbor](https://github.com/harbor-framework/harbor) | repo: harbor-framework/harbor | icon: /icons/harbor-framework-harbor.png | category: Agent Infrastructure | source: github-search | discovered: 2026-07-29 | stars: 3613 | updated: 2026-07-28 | tags: evals, rl-environments, terminal-bench, agent-infrastructure
-  Framework for evaluating and improving agents with terminal-bench style environments and reinforcement-learning evaluation loops.
-
-- [Finance Skills](https://github.com/himself65/finance-skills) | repo: himself65/finance-skills | icon: /icons/himself65-finance-skills.png | category: Vertical Agents | source: github-search | discovered: 2026-07-29 | stars: 3082 | updated: 2026-07-28 | tags: agent-skills, claude-code, skills, trading
-  Agent skill pack for AI financial analysis and trading research workflows.
-
-- [Squad](https://github.com/bradygaster/squad) | repo: bradygaster/squad | icon: /icons/bradygaster-squad.png | category: Multi-Agent Frameworks | source: github-search | discovered: 2026-07-29 | stars: 3016 | updated: 2026-07-28 | tags: ai, cli, copilot, developer-tools
-  Command-line agent-team tool for coordinating AI agents across a project with Copilot and developer-workflow integrations.
-
-- [FAROS](https://github.com/OpenNSWM-Lab/FAROS) | repo: OpenNSWM-Lab/FAROS | icon: /icons/opennswm-lab-faros.png | category: Research Agents | source: github-search | discovered: 2026-07-29 | stars: 2644 | updated: 2026-07-28 | tags: academic-research, academic-writing, agentic-workflow, ai-for-science
-  Blueprint-driven AutoResearch runtime that orchestrates research agents from idea generation and experiments through paper writing.
-
-- [Lumibot](https://github.com/Lumiwealth/lumibot) | repo: Lumiwealth/lumibot | icon: /icons/lumiwealth-lumibot.png | category: Vertical Agents | source: github-search | discovered: 2026-07-29 | stars: 1855 | updated: 2026-07-28 | tags: ai-agents, algorithmic-trading, alpaca, backtesting
-  Backtestable AI trading-agent framework for equities, options, crypto, futures, macro data, and live broker integrations.
-
-- [Image To Editable PPT Skill](https://github.com/ningzimu/image-to-editable-ppt-skill) | repo: ningzimu/image-to-editable-ppt-skill | icon: /icons/ningzimu-image-to-editable-ppt-skill.png | category: Vertical Agents | source: github-search | discovered: 2026-07-29 | stars: 1654 | updated: 2026-07-28 | tags: codex, codex-skill, editable-ppt, image-to-ppt
-  Codex skill for converting slide images, PDFs, and image-based PPTX files into editable PowerPoint decks.
-
-- [Concordia](https://github.com/google-deepmind/concordia) | repo: google-deepmind/concordia | icon: /icons/google-deepmind-concordia.png | category: Multi-Agent Frameworks | source: github-search | discovered: 2026-07-29 | stars: 1579 | updated: 2026-07-28 | tags: agent-based-simulation, generative-agents, multi-agent, social-simulation
-  Google DeepMind library for generative social simulation with agent-based and multi-agent modeling primitives.
-
-- [Agor](https://github.com/preset-io/agor) | repo: preset-io/agor | icon: /icons/preset-io-agor.png | category: Coding Agents | source: github-search | discovered: 2026-07-29 | stars: 1339 | updated: 2026-07-28 | tags: agent-orchestration, agentic, ai-agents, ai-coding
-  Team command center for agentic coding workflows, pairing multiple coding agents with shared canvas, MCP, and code-review context.
-
-- [ADK JS](https://github.com/google/adk-js) | repo: google/adk-js | icon: /icons/google-adk-js.png | category: Multi-Agent Frameworks | source: github-search | discovered: 2026-07-29 | stars: 1324 | updated: 2026-07-28 | tags: agent, agentic, agentic-ai, agents
-  Google TypeScript toolkit for building, evaluating, and deploying AI agents with code-first control over agent behavior.
-
-- [RepoBrain](https://github.com/study8677/repobrain) | repo: study8677/repobrain | icon: /icons/study8677-repobrain.png | category: Coding Agents | source: github-search | discovered: 2026-07-29 | stars: 1300 | updated: 2026-07-28 | tags: agents-sdk, ai-agent, claude-code, code-intelligence
-  Codebase intelligence layer for Claude Code, Cursor, Codex, Windsurf, and similar coding-agent workflows.
-
-- [Alook](https://github.com/alookai/alook) | repo: alookai/alook | icon: /icons/alookai-alook.png | category: Multi-Agent Frameworks | source: github-search | discovered: 2026-07-29 | stars: 1017 | updated: 2026-07-28 | tags: agent-automation, agent-orchestration, agent-workflow, ai-agents
-  Collaboration layer for AI workforces where agents coordinate over email, share memory, and improve across repeated tasks.
+- [Gemini Notebook MCP CLI](https://github.com/jacob-bd/gemini-notebook-mcp-cli) | repo: jacob-bd/gemini-notebook-mcp-cli | icon: /icons/jacob-bd-gemini-notebook-mcp-cli.png | category: Agent Infrastructure | source: github-search | discovered: 2026-07-29 | stars: 5667 | updated: 2026-07-29 | tags: mcp, agent-skills, cli, workflow
+  CLI and MCP server that exposes Gemini Notebook programmatic access to agent workflows and reusable AI agent skills.
 
 ## Categories
 
@@ -1007,7 +962,7 @@ Description: Frameworks for building multi-agent systems.
 - [Agent Framework Go](https://github.com/microsoft/agent-framework-go) | repo: microsoft/agent-framework-go | icon: /icons/microsoft-agent-framework-go.png | stars: 308 | updated: 2026-07-19 | tags: multi-agent, agent-framework, workflow
   A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go.
 
-### Agent Infrastructure | 250 projects
+### Agent Infrastructure | 251 projects
 
 Description: Libraries and tools for agent infrastructure.
 
@@ -1285,6 +1240,8 @@ Description: Libraries and tools for agent infrastructure.
   Memory library for building stateful agents
 - [AgentOps](https://github.com/AgentOps-AI/agentops) | repo: AgentOps-AI/agentops | icon: /icons/agentops-ai-agentops.png | stars: 5673 | updated: 2026-07-02 | tags: agent, agentops, agents-sdk, ai
   Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including CrewAI, Agno, OpenAI Agents SDK, Langchain, Autogen, AG2, and CamelAI
+- [Gemini Notebook MCP CLI](https://github.com/jacob-bd/gemini-notebook-mcp-cli) | repo: jacob-bd/gemini-notebook-mcp-cli | icon: /icons/jacob-bd-gemini-notebook-mcp-cli.png | stars: 5667 | updated: 2026-07-29 | tags: mcp, agent-skills, cli, workflow
+  CLI and MCP server that exposes Gemini Notebook programmatic access to agent workflows and reusable AI agent skills.
 - [Semble](https://github.com/MinishLab/semble) | repo: MinishLab/semble | icon: /icons/minishlab-semble.png | stars: 5659 | updated: 2026-07-20 | tags: agents, code-search, embeddings, mcp
   Fast and Accurate Code Search for Agents. Uses ~98% fewer tokens than grep+read
 - [Engram](https://github.com/Gentleman-Programming/engram) | repo: Gentleman-Programming/engram | icon: /icons/gentleman-programming-engram.png | stars: 5584 | updated: 2026-07-20 | tags: agent-framework, workflow, mcp
