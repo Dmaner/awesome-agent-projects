@@ -64,14 +64,17 @@ Daily refreshed open-source agent projects, grouped for builders.
   100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
 
 ## New
-- [Codex ChatGPT Web](https://github.com/miuuyy/codex-chatgpt-web) | repo: miuuyy/codex-chatgpt-web | icon: /icons/miuuyy-codex-chatgpt-web.png | category: Agent Infrastructure | source: github-search | discovered: 2026-08-31 | stars: 2689 | updated: 2026-08-31 | tags: chatgpt, chatgpt-pro, codex, free-ai
-  Use ChatGPT Web (including Pro) as a native model in the Codex app — with context, tools, streaming and images beyond Codex usage limits.
+- [DevOpsGPT](https://github.com/kuafuai/DevOpsGPT) | repo: kuafuai/DevOpsGPT | icon: /icons/kuafuai-devopsgpt.png | category: Coding Agents | source: github-search | discovered: 2026-08-31 | stars: 5967 | updated: 2026-08-30 | tags: coding-agent, multi-agent, workflow, devops
+  Multi-agent system for AI-driven software development that combines LLMs with DevOps tools to convert natural-language requirements into working software across existing codebases.
 
-- [Codex with ChatGPT](https://github.com/XiaoDuoYa/codex-with-chatgpt) | repo: XiaoDuoYa/codex-with-chatgpt | icon: /icons/xiaoduoya-codex-with-chatgpt.png | category: Agent Infrastructure | source: github-search | discovered: 2026-08-31 | stars: 1439 | updated: 2026-08-31 | tags: ai-agents, chatgpt, codex, mcp
-  ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.
+- [FrontierAgent](https://github.com/ApodexAI/FrontierAgent) | repo: ApodexAI/FrontierAgent | icon: /icons/apodexai-frontieragent.png | category: Multi-Agent Frameworks | source: github-search | discovered: 2026-08-31 | stars: 1324 | updated: 2026-08-31 | tags: agent-orchestration, agentic-ai, agentic-framework, ai-agents
+  Agent framework with a native command-line TUI, ReAct and Agent Team modes, one-command setup, and no hard Docker dependency.
+
+- [PalmClaw](https://github.com/ModalityDance/PalmClaw) | repo: ModalityDance/PalmClaw | icon: /icons/modalitydance-palmclaw.png | category: Multi-Agent Frameworks | source: github-search | discovered: 2026-08-31 | stars: 1156 | updated: 2026-08-30 | tags: mobile-agent, agent-framework, on-device, workflow
+  Native on-device agent framework for mobile phones from an EMNLP 2026 demo.
 
 ## Categories
-### Coding Agents | 165 projects
+### Coding Agents | 166 projects
 
 Description: Agents that help write, refactor and review code.
 
@@ -253,6 +256,8 @@ Description: Agents that help write, refactor and review code.
   Zero-Config Code Flow for Claude code & Codex
 - [OpenCursor](https://github.com/PawanOsman/OpenCursor) | repo: PawanOsman/OpenCursor | icon: /icons/pawanosman-opencursor.png | stars: 5997 | updated: 2026-08-17 | tags: agent, ai, code, coder
   Open-source Cursor-like AI coding agent for VS Code — agentic chat, multi-provider LLMs (OpenAI, Ollama, llama.cpp), semantic search, and MCP support
+- [DevOpsGPT](https://github.com/kuafuai/DevOpsGPT) | repo: kuafuai/DevOpsGPT | icon: /icons/kuafuai-devopsgpt.png | stars: 5967 | updated: 2026-08-30 | tags: coding-agent, multi-agent, workflow, devops
+  Multi-agent system for AI-driven software development that combines LLMs with DevOps tools to convert natural-language requirements into working software across existing codebases.
 - [Autoresearch](https://github.com/uditgoenka/autoresearch) | repo: uditgoenka/autoresearch | icon: /icons/uditgoenka-autoresearch.png | stars: 5825 | updated: 2026-08-15 | tags: ai, autonomous-agent, autoresearch, claude
   Claude Code, OpenCode, and Codex skill that runs goal-driven modify, verify, keep-or-discard loops for autonomous improvement work.
 - [How To Build A Coding Agent](https://github.com/ghuntley/how-to-build-a-coding-agent) | repo: ghuntley/how-to-build-a-coding-agent | icon: /icons/ghuntley-how-to-build-a-coding-agent.png | stars: 5798 | updated: 2026-08-10 | tags: agent, ai, cursor, tutorial
@@ -1009,7 +1014,7 @@ Description: Automate tasks and processes with AI agents.
 - [Heym](https://github.com/heymrun/heym) | repo: heymrun/heym | icon: /icons/heymrun-heym.png | stars: 1045 | updated: 2026-08-28 | tags: ai-agents, ai-agents-framework, ai-assistant, automation
   Build agentic systems. Run them with confidence. Orchestrate agents, automate business processes, inspect every execution, and keep humans in control. Deploy Heym on your own infrastructure.
 
-### Multi-Agent Frameworks | 129 projects
+### Multi-Agent Frameworks | 131 projects
 
 Description: Frameworks for building multi-agent systems.
 
@@ -1235,6 +1240,8 @@ Description: Frameworks for building multi-agent systems.
   Multi-platform GUI for managing and running CrewAI agents and tasks without hand-editing agent code.
 - [Traycer](https://github.com/traycerai/traycer) | repo: traycerai/traycer | icon: /icons/traycerai-traycer.png | stars: 1333 | updated: 2026-08-26 | tags: coding-agent, orchestration, workflow, devtools
   Traycer: Nerve Center for Agentic Coding
+- [FrontierAgent](https://github.com/ApodexAI/FrontierAgent) | repo: ApodexAI/FrontierAgent | icon: /icons/apodexai-frontieragent.png | stars: 1324 | updated: 2026-08-31 | tags: agent-orchestration, agentic-ai, agentic-framework, ai-agents
+  Agent framework with a native command-line TUI, ReAct and Agent Team modes, one-command setup, and no hard Docker dependency.
 - [Commonly](https://github.com/Team-Commonly/commonly) | repo: Team-Commonly/commonly | icon: /icons/team-commonly-commonly.png | stars: 1283 | updated: 2026-08-02 | tags: agent-framework, agent-harness, agent-protocol, agentic
   Open-source room for humans + cross-vendor AI agents. Every agent gets its own name, memory, skills, and workstation. Any runtime, your infra — no per-agent fees.
 - [FastClaw](https://github.com/fastclaw-ai/fastclaw) | repo: fastclaw-ai/fastclaw | icon: /icons/fastclaw-ai-fastclaw.png | stars: 1275 | updated: 2026-08-02 | tags: agent-factory, agent-runtime, fastclaw, multi-agent
@@ -1251,6 +1258,8 @@ Description: Frameworks for building multi-agent systems.
   The Best AI Agent Framework for Agent Collaboration.
 - [Alook](https://github.com/alookai/alook) | repo: alookai/alook | icon: /icons/alookai-alook.png | stars: 1165 | updated: 2026-08-29 | tags: agent-automation, agent-orchestration, agent-workflow, ai-agents
   Rooms for people and agents.
+- [PalmClaw](https://github.com/ModalityDance/PalmClaw) | repo: ModalityDance/PalmClaw | icon: /icons/modalitydance-palmclaw.png | stars: 1156 | updated: 2026-08-30 | tags: mobile-agent, agent-framework, on-device, workflow
+  Native on-device agent framework for mobile phones from an EMNLP 2026 demo.
 - [Gascity](https://github.com/gastownhall/gascity) | repo: gastownhall/gascity | icon: /icons/gastownhall-gascity.png | stars: 1119 | updated: 2026-08-14 | tags: multi-agent, agent-framework, workflow
   Orchestration-builder SDK for multi-agent coding workflows
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) | repo: agentlas-ai/Agentlas-OS | icon: /icons/agentlas-ai-agentlas-os.png | stars: 1118 | updated: 2026-07-27 | tags: a2a, agent, agent-framework, agent-os-desktop
