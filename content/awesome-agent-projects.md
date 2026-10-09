@@ -4,88 +4,106 @@ Daily refreshed open-source agent projects, grouped for builders.
 
 ## Popular
 
-- [OpenClaw](https://github.com/openclaw/openclaw) | repo: openclaw/openclaw | icon: /icons/openclaw-openclaw.png | category: AI Assistants | source: github-search | discovered: 2026-07-01 | stars: 391505 | updated: 2026-10-09 | tags: ai, assistant, crustacean, molty
+- [OpenClaw](https://github.com/openclaw/openclaw) | repo: openclaw/openclaw | icon: /icons/openclaw-openclaw.png | category: AI Assistants | source: github-search | discovered: 2026-07-01 | stars: 391528 | updated: 2026-10-09 | tags: ai, assistant, crustacean, molty
   The AI that really does things. Any OS. Any Platform. The lobster way. 🦞
 
-- [Superpowers](https://github.com/obra/superpowers) | repo: obra/superpowers | icon: /icons/obra-superpowers.png | category: Agent Infrastructure | source: github-search | discovered: 2026-06-28 | stars: 296660 | updated: 2026-10-09 | tags: ai, brainstorming, coding, obra
+- [Superpowers](https://github.com/obra/superpowers) | repo: obra/superpowers | icon: /icons/obra-superpowers.png | category: Agent Infrastructure | source: github-search | discovered: 2026-06-28 | stars: 296876 | updated: 2026-10-09 | tags: ai, brainstorming, coding, obra
   An agentic skills framework & software development methodology that works.
 
-- [Skills](https://github.com/mattpocock/skills) | repo: mattpocock/skills | icon: /icons/mattpocock-skills.png | category: Agent Infrastructure | source: github-search | discovered: 2026-07-19 | stars: 281531 | updated: 2026-10-08 | tags: agent-framework, mcp, workflow
+- [Skills](https://github.com/mattpocock/skills) | repo: mattpocock/skills | icon: /icons/mattpocock-skills.png | category: Agent Infrastructure | source: github-search | discovered: 2026-07-19 | stars: 282558 | updated: 2026-10-09 | tags: agent-framework, mcp, workflow
   Skills for Real Engineers. Straight from my .agents directory.
 
-- [ECC](https://github.com/affaan-m/ECC) | repo: affaan-m/ECC | icon: /icons/affaan-m-ecc.png | category: DevTools & CLIs | source: github-search | discovered: 2026-06-28 | stars: 275534 | updated: 2026-10-05 | tags: ai-agents, anthropic, claude, claude-code
+- [ECC](https://github.com/affaan-m/ECC) | repo: affaan-m/ECC | icon: /icons/affaan-m-ecc.png | category: DevTools & CLIs | source: github-search | discovered: 2026-06-28 | stars: 275939 | updated: 2026-10-09 | tags: ai-agents, anthropic, claude, claude-code
   The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
 
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent) | repo: NousResearch/hermes-agent | icon: /icons/nousresearch-hermes-agent.png | category: AI Assistants | source: github-search | discovered: 2026-06-28 | stars: 252105 | updated: 2026-10-09 | tags: ai, ai-agent, ai-agents, anthropic
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) | repo: NousResearch/hermes-agent | icon: /icons/nousresearch-hermes-agent.png | category: AI Assistants | source: github-search | discovered: 2026-06-28 | stars: 252272 | updated: 2026-10-09 | tags: ai, ai-agent, ai-agents, anthropic
   The agent that grows with you
 
-- [Deepseek Harness](https://github.com/deepseek-ai/deepseek-harness) | repo: deepseek-ai/deepseek-harness | icon: /icons/deepseek-ai-deepseek-harness.png | category: Agent Infrastructure | source: github-search | discovered: 2026-08-17 | stars: 245929 | updated: 2026-10-03 | tags: ai-agents, cordis, dsh, dsh-plugin
+- [Deepseek Harness](https://github.com/deepseek-ai/deepseek-harness) | repo: deepseek-ai/deepseek-harness | icon: /icons/deepseek-ai-deepseek-harness.png | category: Agent Infrastructure | source: github-search | discovered: 2026-08-17 | stars: 246324 | updated: 2026-10-09 | tags: ai-agents, cordis, dsh, dsh-plugin
   DeepSeek Harness: Everything is a Plugin.
 
-- [OpenCode](https://github.com/anomalyco/opencode) | repo: anomalyco/opencode | icon: /icons/anomalyco-opencode.png | category: Coding Agents | source: github-search | discovered: 2026-06-28 | stars: 212257 | updated: 2026-10-09 | tags: coding-agent, workflow, agent-framework
+- [OpenCode](https://github.com/anomalyco/opencode) | repo: anomalyco/opencode | icon: /icons/anomalyco-opencode.png | category: Coding Agents | source: github-search | discovered: 2026-06-28 | stars: 212381 | updated: 2026-10-09 | tags: coding-agent, workflow, agent-framework
   The open source coding agent.
 
-- [n8n](https://github.com/n8n-io/n8n) | repo: n8n-io/n8n | icon: /icons/n8n-io-n8n.png | category: Workflow Automation | source: github-search | discovered: 2026-06-28 | stars: 206762 | updated: 2026-10-09 | tags: ai, apis, automation, cli
+- [n8n](https://github.com/n8n-io/n8n) | repo: n8n-io/n8n | icon: /icons/n8n-io-n8n.png | category: Workflow Automation | source: github-search | discovered: 2026-06-28 | stars: 206836 | updated: 2026-10-09 | tags: ai, apis, automation, cli
   Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
 
-- [Firecrawl](https://github.com/firecrawl/firecrawl) | repo: firecrawl/firecrawl | icon: /icons/firecrawl-firecrawl.png | category: Agent Infrastructure | source: github-search | discovered: 2026-06-28 | stars: 189697 | updated: 2026-10-09 | tags: ai, ai-agents, ai-crawler, ai-scraping
+- [Firecrawl](https://github.com/firecrawl/firecrawl) | repo: firecrawl/firecrawl | icon: /icons/firecrawl-firecrawl.png | category: Agent Infrastructure | source: github-search | discovered: 2026-06-28 | stars: 189910 | updated: 2026-10-09 | tags: ai, ai-agents, ai-crawler, ai-scraping
   Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
 
-- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | repo: Significant-Gravitas/AutoGPT | icon: /icons/significant-gravitas-autogpt.png | category: AI Assistants | source: github-search | discovered: 2026-06-28 | stars: 187488 | updated: 2026-10-09 | tags: agentic-ai, agents, ai, artificial-intelligence
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | repo: Significant-Gravitas/AutoGPT | icon: /icons/significant-gravitas-autogpt.png | category: AI Assistants | source: github-search | discovered: 2026-06-28 | stars: 187498 | updated: 2026-10-09 | tags: agentic-ai, agents, ai, artificial-intelligence
   AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
 
-- [Agent Skills](https://github.com/anthropics/skills) | repo: anthropics/skills | icon: /icons/anthropics-skills.png | category: Agent Infrastructure | source: github-search | discovered: 2026-06-28 | stars: 180043 | updated: 2026-10-08 | tags: agent-skills
+- [Agent Skills](https://github.com/anthropics/skills) | repo: anthropics/skills | icon: /icons/anthropics-skills.png | category: Agent Infrastructure | source: github-search | discovered: 2026-06-28 | stars: 180155 | updated: 2026-10-09 | tags: agent-skills
   Public repository for Agent Skills
 
-- [Ponytail](https://github.com/DietrichGebert/ponytail) | repo: DietrichGebert/ponytail | icon: /icons/dietrichgebert-ponytail.png | category: Agent Infrastructure | source: github-trending | discovered: 2026-10-01 | stars: 158844 | updated: 2026-10-08 | tags: agent-skills, ai-agents, claude, claude-code
+- [Ponytail](https://github.com/DietrichGebert/ponytail) | repo: DietrichGebert/ponytail | icon: /icons/dietrichgebert-ponytail.png | category: Agent Infrastructure | source: github-trending | discovered: 2026-10-01 | stars: 159567 | updated: 2026-10-08 | tags: agent-skills, ai-agents, claude, claude-code
   Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
 
-- [Agency Agents](https://github.com/msitarzewski/agency-agents) | repo: msitarzewski/agency-agents | icon: /icons/msitarzewski-agency-agents.png | category: AI Assistants | source: github-search | discovered: 2026-06-28 | stars: 158386 | updated: 2026-10-07 | tags: ai-assistant, agent, workflow
+- [Agency Agents](https://github.com/msitarzewski/agency-agents) | repo: msitarzewski/agency-agents | icon: /icons/msitarzewski-agency-agents.png | category: AI Assistants | source: github-search | discovered: 2026-06-28 | stars: 158517 | updated: 2026-10-07 | tags: ai-assistant, agent, workflow
   A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
 
-- [Dify](https://github.com/langgenius/dify) | repo: langgenius/dify | icon: /icons/langgenius-dify.png | category: Workflow Automation | source: github-search | discovered: 2026-06-28 | stars: 157966 | updated: 2026-10-09 | tags: agent, agentic-ai, agentic-framework, agentic-workflow
+- [Dify](https://github.com/langgenius/dify) | repo: langgenius/dify | icon: /icons/langgenius-dify.png | category: Workflow Automation | source: github-search | discovered: 2026-06-28 | stars: 158010 | updated: 2026-10-09 | tags: agent, agentic-ai, agentic-framework, agentic-workflow
   Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
 
-- [Langflow](https://github.com/langflow-ai/langflow) | repo: langflow-ai/langflow | icon: /icons/langflow-ai-langflow.png | category: Workflow Automation | source: github-search | discovered: 2026-06-28 | stars: 155408 | updated: 2026-10-09 | tags: agents, chatgpt, generative-ai, large-language-models
+- [Langflow](https://github.com/langflow-ai/langflow) | repo: langflow-ai/langflow | icon: /icons/langflow-ai-langflow.png | category: Workflow Automation | source: github-search | discovered: 2026-06-28 | stars: 155440 | updated: 2026-10-09 | tags: agents, chatgpt, generative-ai, large-language-models
   Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
 
-- [Open Webui](https://github.com/open-webui/open-webui) | repo: open-webui/open-webui | icon: /icons/open-webui-open-webui.png | category: AI Assistants | source: github-search | discovered: 2026-08-05 | stars: 154081 | updated: 2026-10-09 | tags: ai, llm, llm-ui, llm-webui
+- [Open Webui](https://github.com/open-webui/open-webui) | repo: open-webui/open-webui | icon: /icons/open-webui-open-webui.png | category: AI Assistants | source: github-search | discovered: 2026-08-05 | stars: 154142 | updated: 2026-10-09 | tags: ai, llm, llm-ui, llm-webui
   User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 
-- [Claude Code](https://github.com/anthropics/claude-code) | repo: anthropics/claude-code | icon: /icons/anthropics-claude-code.png | category: Coding Agents | source: github-search | discovered: 2026-06-28 | stars: 149763 | updated: 2026-10-08 | tags: coding-agent, workflow, agent-framework
+- [Claude Code](https://github.com/anthropics/claude-code) | repo: anthropics/claude-code | icon: /icons/anthropics-claude-code.png | category: Coding Agents | source: github-search | discovered: 2026-06-28 | stars: 149861 | updated: 2026-10-09 | tags: coding-agent, workflow, agent-framework
   Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
 
-- [LangChain](https://github.com/langchain-ai/langchain) | repo: langchain-ai/langchain | icon: /icons/langchain-ai-langchain.png | category: Agent Infrastructure | source: github-search | discovered: 2026-06-28 | stars: 147416 | updated: 2026-10-08 | tags: agents, ai, ai-agents, anthropic
+- [LangChain](https://github.com/langchain-ai/langchain) | repo: langchain-ai/langchain | icon: /icons/langchain-ai-langchain.png | category: Agent Infrastructure | source: github-search | discovered: 2026-06-28 | stars: 147497 | updated: 2026-10-09 | tags: agents, ai, ai-agents, anthropic
   The agent engineering platform.
 
-- [CC Switch](https://github.com/farion1231/cc-switch) | repo: farion1231/cc-switch | icon: /icons/farion1231-cc-switch.png | category: DevTools & CLIs | source: github-search | discovered: 2026-10-03 | stars: 141628 | updated: 2026-10-09 | tags: ai-tools, claude-code, codex, desktop-app
+- [CC Switch](https://github.com/farion1231/cc-switch) | repo: farion1231/cc-switch | icon: /icons/farion1231-cc-switch.png | category: DevTools & CLIs | source: github-search | discovered: 2026-10-03 | stars: 141897 | updated: 2026-10-09 | tags: ai-tools, claude-code, codex, desktop-app
   A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
 
-- [Gstack](https://github.com/garrytan/gstack) | repo: garrytan/gstack | icon: /icons/garrytan-gstack.png | category: Agent Infrastructure | source: github-search | discovered: 2026-10-03 | stars: 135670 | updated: 2026-10-09 | tags: coding-agent, workflow, agent-framework
+- [Gstack](https://github.com/garrytan/gstack) | repo: garrytan/gstack | icon: /icons/garrytan-gstack.png | category: Agent Infrastructure | source: github-search | discovered: 2026-10-03 | stars: 135731 | updated: 2026-10-09 | tags: coding-agent, workflow, agent-framework
   Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
 
 ## New
 
-- [Codewhale](https://github.com/codewhale-hq/Codewhale) | repo: codewhale-hq/Codewhale | icon: /icons/codewhale-hq-codewhale.png | category: Coding Agents | source: github-search | discovered: 2026-10-09 | stars: 41079 | updated: 2026-10-09 | tags: agent-orchestration, ai-agent, cli, codewhale
-  Open-source Rust agent engine and terminal client for Codewhale, with provider choice, tools, approvals and receipts.
+- [SwiftUI Agent Skill](https://github.com/twostraws/SwiftUI-Agent-Skill) | repo: twostraws/SwiftUI-Agent-Skill | icon: /icons/twostraws-swiftui-agent-skill.png | category: Coding Agents | source: github-trending | discovered: 2026-10-10 | stars: 5388 | updated: 2026-10-07 | tags: agent-framework, workflow
+  SwiftUI agent skill for Claude Code, Codex, and other AI tools.
 
-- [Invisible Dots](https://github.com/feder-cr/invisible_dots) | repo: feder-cr/invisible_dots | icon: /icons/feder-cr-invisible-dots.png | category: Coding Agents | source: github-search | discovered: 2026-10-09 | stars: 31897 | updated: 2026-10-09 | tags: agent-skills, agentic-ai, ai-agent, ai-agents
-  Open-source, self-hosted alternative to OpenAI Dots, Grok Bot. Built to be undetectable by anti-bot systems.
+- [Zotero MCP](https://github.com/54yyyu/zotero-mcp) | repo: 54yyyu/zotero-mcp | icon: /icons/54yyyu-zotero-mcp.png | category: Research Agents | source: github-search | discovered: 2026-10-10 | stars: 5297 | updated: 2026-10-08 | tags: ai-agent, chatgpt, claude, claude-code
+  Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more.
 
-- [Rea](https://github.com/morluto/rea) | repo: morluto/rea | icon: /icons/morluto-rea.png | category: Coding Agents | source: github-trending | discovered: 2026-10-09 | stars: 31028 | updated: 2026-10-09 | tags: agent-skills, ai-agents, binary-analysis, claude-code
-  Reverse engineer anything with agents, from app behavior down to native binaries.
+- [Tuios](https://github.com/Gaurav-Gosain/tuios) | repo: Gaurav-Gosain/tuios | icon: /icons/gaurav-gosain-tuios.png | category: DevTools & CLIs | source: github-search | discovered: 2026-10-10 | stars: 5076 | updated: 2026-10-09 | tags: ai-agents, bubbletea, charm, claude-code
+  A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.
+
+- [Chat On Steroids](https://github.com/totec448-spec/chat-on-steroids) | repo: totec448-spec/chat-on-steroids | icon: /icons/totec448-spec-chat-on-steroids.png | category: Agent Infrastructure | source: github-search | discovered: 2026-10-10 | stars: 4278 | updated: 2026-10-09 | tags: automation, chatgpt, chrome-extension, electron
+  Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.
+
+- [Rakazo](https://github.com/elie222/rakazo) | repo: elie222/rakazo | icon: /icons/elie222-rakazo.png | category: AI Assistants | source: github-trending | discovered: 2026-10-10 | stars: 3576 | updated: 2026-10-09 | tags: ai-agents, chatgpt, docker, electron
+  Open-source Grok Bot alternative. Choose your own model and sandbox.
+
+- [Stealth Browser MCP](https://github.com/vibheksoni/stealth-browser-mcp) | repo: vibheksoni/stealth-browser-mcp | icon: /icons/vibheksoni-stealth-browser-mcp.png | category: Browser Agents | source: github-search | discovered: 2026-10-10 | stars: 2218 | updated: 2026-10-09 | tags: ai-agent-tools, ai-tools, anthropic, anti-bot-bypass
+  Stealth browser automation for AI agents over MCP and the Chrome DevTools Protocol: navigation, network hooks, DOM extraction, and pixel-accurate UI cloning.
+
+- [Pstack Claude](https://github.com/michael-denyer/pstack-claude) | repo: michael-denyer/pstack-claude | icon: /icons/michael-denyer-pstack-claude.png | category: Agent Infrastructure | source: github-search | discovered: 2026-10-10 | stars: 1719 | updated: 2026-10-09 | tags: agent-plugin, agent-skills, agentic-ai, anthropic
+  Claude Code, Codex, Copilot, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.
+
+- [Spec Kitty](https://github.com/spec-kitty/spec-kitty) | repo: spec-kitty/spec-kitty | icon: /icons/spec-kitty-spec-kitty.png | category: Coding Agents | source: github-search | discovered: 2026-10-10 | stars: 1678 | updated: 2026-10-09 | tags: agentic-coding, ai-agents, ai-coding-workflow, ai-development-dashboard
+  Spec-Driven Development with organizational governance. Specs tell AI agents what to build; Charter governs how they build it. Git-native missions, enforceable workflows, and consistent engineering standards across AI coding agents and harnesses.
+
+- [Crit](https://github.com/tomasz-tomczyk/crit) | repo: tomasz-tomczyk/crit | icon: /icons/tomasz-tomczyk-crit.png | category: DevTools & CLIs | source: github-search | discovered: 2026-10-10 | stars: 1195 | updated: 2026-10-09 | tags: agentic-coding, ai-agents, ai-tools, cli
+  Review AI coding agents' plans, diffs and running apps in the browser. Local-first, works with any agent.
 
 ## Categories
 
-### Coding Agents | 183 projects
+### Coding Agents | 185 projects
 
 Description: Agents that help write, refactor and review code.
 
-- [OpenCode](https://github.com/anomalyco/opencode) | repo: anomalyco/opencode | icon: /icons/anomalyco-opencode.png | stars: 212257 | updated: 2026-10-09 | tags: coding-agent, workflow, agent-framework
+- [OpenCode](https://github.com/anomalyco/opencode) | repo: anomalyco/opencode | icon: /icons/anomalyco-opencode.png | stars: 212381 | updated: 2026-10-09 | tags: coding-agent, workflow, agent-framework
   The open source coding agent.
 - [Claw Code](https://github.com/ultraworkers/claw-code) | repo: ultraworkers/claw-code | icon: /icons/ultraworkers-claw-code.png | stars: 195270 | updated: 2026-10-02 | tags: coding-agent, workflow, agent-framework
   An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.
-- [Claude Code](https://github.com/anthropics/claude-code) | repo: anthropics/claude-code | icon: /icons/anthropics-claude-code.png | stars: 149763 | updated: 2026-10-08 | tags: coding-agent, workflow, agent-framework
+- [Claude Code](https://github.com/anthropics/claude-code) | repo: anthropics/claude-code | icon: /icons/anthropics-claude-code.png | stars: 149861 | updated: 2026-10-09 | tags: coding-agent, workflow, agent-framework
   Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
 - [Codex](https://github.com/openai/codex) | repo: openai/codex | icon: /icons/openai-codex.png | stars: 127831 | updated: 2026-10-04 | tags: coding-agent, workflow, agent-framework
   Lightweight coding agent that runs in your terminal
@@ -283,6 +301,8 @@ Description: Agents that help write, refactor and review code.
   Chinese Claude Code, OpenClaw, and Codex learning guide with practical AI coding and agent workflow examples.
 - [Claude Code Ultimate Guide](https://github.com/FlorianBruniaux/claude-code-ultimate-guide) | repo: FlorianBruniaux/claude-code-ultimate-guide | icon: /icons/florianbruniaux-claude-code-ultimate-guide.png | stars: 5728 | updated: 2026-08-14 | tags: agentic-coding, ai-assistant, ai-coding, ai-pair-programming
   Comprehensive Claude Code guide with agentic workflows, hooks, skills, MCP servers, quizzes, and production templates.
+- [SwiftUI Agent Skill](https://github.com/twostraws/SwiftUI-Agent-Skill) | repo: twostraws/SwiftUI-Agent-Skill | icon: /icons/twostraws-swiftui-agent-skill.png | stars: 5388 | updated: 2026-10-07 | tags: agent-framework, workflow
+  SwiftUI agent skill for Claude Code, Codex, and other AI tools.
 - [Vibesdk](https://github.com/cloudflare/vibesdk) | repo: cloudflare/vibesdk | icon: /icons/cloudflare-vibesdk.png | stars: 5336 | updated: 2026-08-28 | tags: ai, cloudflare-workers, coding-agent, durable-objects
   An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack
 - [Emdash](https://github.com/generalaction/emdash) | repo: generalaction/emdash | icon: /icons/generalaction-emdash.png | stars: 5217 | updated: 2026-07-20 | tags: agenticdevelopment, agenticdevelopmentenvironment, ai, claude-code
@@ -395,6 +415,8 @@ Description: Agents that help write, refactor and review code.
   Minimal AI coding agent (~1,000 lines of Python) inspired by Claude Code. Works with any LLM. Think NanoGPT for coding agents. Formerly NanoCoder.
 - [OpenMonoAgent AI](https://github.com/StartupHakk/OpenMonoAgent.ai) | repo: StartupHakk/OpenMonoAgent.ai | icon: /icons/startuphakk-openmonoagent-ai.png | stars: 1680 | updated: 2026-07-28 | tags: coding-agent, local-llm, cli
   Terminal-native local coding agent powered by local LLMs and designed for unlimited self-hosted use.
+- [Spec Kitty](https://github.com/spec-kitty/spec-kitty) | repo: spec-kitty/spec-kitty | icon: /icons/spec-kitty-spec-kitty.png | stars: 1678 | updated: 2026-10-09 | tags: agentic-coding, ai-agents, ai-coding-workflow, ai-development-dashboard
+  Spec-Driven Development with organizational governance. Specs tell AI agents what to build; Charter governs how they build it. Git-native missions, enforceable workflows, and consistent engineering standards across AI coding agents and harnesses.
 - [Pi Agent Rust](https://github.com/Dicklesworthstone/pi_agent_rust) | repo: Dicklesworthstone/pi_agent_rust | icon: /icons/dicklesworthstone-pi-agent-rust.png | stars: 1667 | updated: 2026-08-28 | tags: ai-agents, cli, developer-tools, rust
   High-performance AI coding agent CLI written in Rust with zero unsafe code
 - [Zero](https://github.com/Gitlawb/zero) | repo: Gitlawb/zero | icon: /icons/gitlawb-zero.png | stars: 1637 | updated: 2026-08-28 | tags: ai, ai-agent, anthropic, cli
@@ -448,19 +470,19 @@ Description: Agents that help write, refactor and review code.
 - [Loki Mode](https://github.com/asklokesh/loki-mode) | repo: asklokesh/loki-mode | icon: /icons/asklokesh-loki-mode.png | stars: 1005 | updated: 2026-07-05 | tags: ai-agents, aider, anthropic, autonomous
   Multi-agent autonomous SDLC framework. Spec to deployed app. PRD, GitHub issue, OpenAPI/JSON/YAML, or one-line brief. 5 AI providers, 11 quality gates.
 
-### AI Assistants | 95 projects
+### AI Assistants | 96 projects
 
 Description: Conversational agents and assistant frameworks.
 
-- [OpenClaw](https://github.com/openclaw/openclaw) | repo: openclaw/openclaw | icon: /icons/openclaw-openclaw.png | stars: 391505 | updated: 2026-10-09 | tags: ai, assistant, crustacean, molty
+- [OpenClaw](https://github.com/openclaw/openclaw) | repo: openclaw/openclaw | icon: /icons/openclaw-openclaw.png | stars: 391528 | updated: 2026-10-09 | tags: ai, assistant, crustacean, molty
   The AI that really does things. Any OS. Any Platform. The lobster way. 🦞
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent) | repo: NousResearch/hermes-agent | icon: /icons/nousresearch-hermes-agent.png | stars: 252105 | updated: 2026-10-09 | tags: ai, ai-agent, ai-agents, anthropic
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) | repo: NousResearch/hermes-agent | icon: /icons/nousresearch-hermes-agent.png | stars: 252272 | updated: 2026-10-09 | tags: ai, ai-agent, ai-agents, anthropic
   The agent that grows with you
-- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | repo: Significant-Gravitas/AutoGPT | icon: /icons/significant-gravitas-autogpt.png | stars: 187488 | updated: 2026-10-09 | tags: agentic-ai, agents, ai, artificial-intelligence
+- [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | repo: Significant-Gravitas/AutoGPT | icon: /icons/significant-gravitas-autogpt.png | stars: 187498 | updated: 2026-10-09 | tags: agentic-ai, agents, ai, artificial-intelligence
   AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.
-- [Agency Agents](https://github.com/msitarzewski/agency-agents) | repo: msitarzewski/agency-agents | icon: /icons/msitarzewski-agency-agents.png | stars: 158386 | updated: 2026-10-07 | tags: ai-assistant, agent, workflow
+- [Agency Agents](https://github.com/msitarzewski/agency-agents) | repo: msitarzewski/agency-agents | icon: /icons/msitarzewski-agency-agents.png | stars: 158517 | updated: 2026-10-07 | tags: ai-assistant, agent, workflow
   A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-- [Open Webui](https://github.com/open-webui/open-webui) | repo: open-webui/open-webui | icon: /icons/open-webui-open-webui.png | stars: 154081 | updated: 2026-10-09 | tags: ai, llm, llm-ui, llm-webui
+- [Open Webui](https://github.com/open-webui/open-webui) | repo: open-webui/open-webui | icon: /icons/open-webui-open-webui.png | stars: 154142 | updated: 2026-10-09 | tags: ai, llm, llm-ui, llm-webui
   User-friendly AI Interface (Supports Ollama, OpenAI API, ...)
 - [NextChat](https://github.com/ChatGPTNextWeb/NextChat) | repo: ChatGPTNextWeb/NextChat | icon: /icons/chatgptnextweb-nextchat.png | stars: 88342 | updated: 2026-06-30 | tags: calclaude, chatgpt, claude, cross-platform
   ✨ Light and Fast AI Assistant. Support: Web - iOS - MacOS - Android - Linux - Windows
@@ -578,6 +600,8 @@ Description: Conversational agents and assistant frameworks.
   Self-hosted AI workspace with chat, tools, approvals, connectors, and computer-use tasks.
 - [PilotDeck](https://github.com/OpenBMB/PilotDeck) | repo: OpenBMB/PilotDeck | icon: /icons/openbmb-pilotdeck.png | stars: 4020 | updated: 2026-09-29 | tags: ai-agent, productivity, workflow, platform
   Task-oriented AI Agent productivity platform
+- [Rakazo](https://github.com/elie222/rakazo) | repo: elie222/rakazo | icon: /icons/elie222-rakazo.png | stars: 3576 | updated: 2026-10-09 | tags: ai-agents, chatgpt, docker, electron
+  Open-source Grok Bot alternative. Choose your own model and sandbox.
 - [Cherry Studio App](https://github.com/CherryHQ/cherry-studio-app) | repo: CherryHQ/cherry-studio-app | icon: /icons/cherryhq-cherry-studio-app.png | stars: 3536 | updated: 2026-07-08 | tags: agent, android, assistant, chat-bot
   🍒 This is the mobile version of Cherry Studio.
 - [MIRIX](https://github.com/Mirix-AI/MIRIX) | repo: Mirix-AI/MIRIX | icon: /icons/mirix-ai-mirix.png | stars: 3483 | updated: 2026-08-14 | tags: llm-agents, llm-memory, memory-agents, personal-assistant
@@ -643,7 +667,7 @@ Description: Conversational agents and assistant frameworks.
 - [Boop Agent](https://github.com/raroque/boop-agent) | repo: raroque/boop-agent | icon: /icons/raroque-boop-agent.png | stars: 1057 | updated: 2026-07-15 | tags: ai-agent, personal-agent, claude-code, codex
   iMessage personal agent: choose Claude Agent SDK (Claude Code) or Codex app-server runtime (Codex/ChatGPT), with memory, sub-agents, automations, integrations.
 
-### Research Agents | 63 projects
+### Research Agents | 64 projects
 
 Description: Agents for research, papers and scientific discovery.
 
@@ -697,6 +721,8 @@ Description: Agents for research, papers and scientific discovery.
   MiroThinker is a deep research agent optimized for complex research and prediction tasks. Our latest models, MiroThinker-1.7, achieves 74.0 and 75.3 on the BrowseComp and BrowseComp Zh, respectively.
 - [OpenResearch](https://github.com/alphaXiv/OpenResearch) | repo: alphaXiv/OpenResearch | icon: /icons/alphaxiv-openresearch.png | stars: 5903 | updated: 2026-09-29 | tags: research-agent, multi-agent, workflow
   Turn your coding agents into research agents
+- [Zotero MCP](https://github.com/54yyyu/zotero-mcp) | repo: 54yyyu/zotero-mcp | icon: /icons/54yyyu-zotero-mcp.png | stars: 5297 | updated: 2026-10-08 | tags: ai-agent, chatgpt, claude, claude-code
+  Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more.
 - [OASIS](https://github.com/camel-ai/oasis) | repo: camel-ai/oasis | icon: /icons/camel-ai-oasis.png | stars: 5220 | updated: 2026-10-02 | tags: agent-based-framework, agent-based-simulation, ai-societies, deep-learning
   🏝️ OASIS: Open Agent Social Interaction Simulations with One Million Agents.
 - [Claude Scholar](https://github.com/Galaxy-Dawn/claude-scholar) | repo: Galaxy-Dawn/claude-scholar | icon: /icons/galaxy-dawn-claude-scholar.png | stars: 4521 | updated: 2026-07-02 | tags: academic-research, ai-agents, claude, claude-code
@@ -875,7 +901,7 @@ Description: Agents for data analysis, query and visualization.
 - [Skills for Fabric](https://github.com/microsoft/skills-for-fabric) | repo: microsoft/skills-for-fabric | icon: /icons/microsoft-skills-for-fabric.png | stars: 828 | updated: 2026-07-20 | tags: mcp, data-agent, skills, workflow
   Reusable AI assistant skills and MCP systems for operating over Microsoft Fabric workloads.
 
-### Browser Agents | 58 projects
+### Browser Agents | 59 projects
 
 Description: Agents that operate browsers and the web.
 
@@ -959,6 +985,8 @@ Description: Agents that operate browsers and the web.
   Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.
 - [Wigolo](https://github.com/KnockOutEZ/wigolo) | repo: KnockOutEZ/wigolo | icon: /icons/knockoutez-wigolo.png | stars: 2369 | updated: 2026-07-20 | tags: agent, ai, ai-agent, claude
   The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.
+- [Stealth Browser MCP](https://github.com/vibheksoni/stealth-browser-mcp) | repo: vibheksoni/stealth-browser-mcp | icon: /icons/vibheksoni-stealth-browser-mcp.png | stars: 2218 | updated: 2026-10-09 | tags: ai-agent-tools, ai-tools, anthropic, anti-bot-bypass
+  Stealth browser automation for AI agents over MCP and the Chrome DevTools Protocol: navigation, network hooks, DOM extraction, and pixel-accurate UI cloning.
 - [AI Anywhere](https://github.com/AI-Anywhere/AI-Anywhere) | repo: AI-Anywhere/AI-Anywhere | icon: /icons/ai-anywhere-ai-anywhere.png | stars: 2126 | updated: 2026-09-24 | tags: claude, codex
   Browser control layer that lets coding and assistant agents operate across signed-in web apps from any browser.
 - [TinyFish Cookbook](https://github.com/tinyfish-io/tinyfish-cookbook) | repo: tinyfish-io/tinyfish-cookbook | icon: /icons/tinyfish-io-tinyfish-cookbook.png | stars: 2118 | updated: 2026-08-20 | tags: agent, agentic, ai, cookbook
@@ -1000,11 +1028,11 @@ Description: Agents that operate browsers and the web.
 
 Description: Automate tasks and processes with AI agents.
 
-- [n8n](https://github.com/n8n-io/n8n) | repo: n8n-io/n8n | icon: /icons/n8n-io-n8n.png | stars: 206762 | updated: 2026-10-09 | tags: ai, apis, automation, cli
+- [n8n](https://github.com/n8n-io/n8n) | repo: n8n-io/n8n | icon: /icons/n8n-io-n8n.png | stars: 206836 | updated: 2026-10-09 | tags: ai, apis, automation, cli
   Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
-- [Dify](https://github.com/langgenius/dify) | repo: langgenius/dify | icon: /icons/langgenius-dify.png | stars: 157966 | updated: 2026-10-09 | tags: agent, agentic-ai, agentic-framework, agentic-workflow
+- [Dify](https://github.com/langgenius/dify) | repo: langgenius/dify | icon: /icons/langgenius-dify.png | stars: 158010 | updated: 2026-10-09 | tags: agent, agentic-ai, agentic-framework, agentic-workflow
   Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.
-- [Langflow](https://github.com/langflow-ai/langflow) | repo: langflow-ai/langflow | icon: /icons/langflow-ai-langflow.png | stars: 155408 | updated: 2026-10-09 | tags: agents, chatgpt, generative-ai, large-language-models
+- [Langflow](https://github.com/langflow-ai/langflow) | repo: langflow-ai/langflow | icon: /icons/langflow-ai-langflow.png | stars: 155440 | updated: 2026-10-09 | tags: agents, chatgpt, generative-ai, large-language-models
   Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
 - [Deer Flow](https://github.com/bytedance/deer-flow) | repo: bytedance/deer-flow | icon: /icons/bytedance-deer-flow.png | stars: 83379 | updated: 2026-10-04 | tags: agent, agentic, agentic-framework, agentic-workflow
   An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
@@ -1412,29 +1440,29 @@ Description: Frameworks for building multi-agent systems.
 - [Agent Framework Go](https://github.com/microsoft/agent-framework-go) | repo: microsoft/agent-framework-go | icon: /icons/microsoft-agent-framework-go.png | stars: 308 | updated: 2026-07-19 | tags: multi-agent, agent-framework, workflow
   A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go.
 
-### Agent Infrastructure | 442 projects
+### Agent Infrastructure | 444 projects
 
 Description: Libraries and tools for agent infrastructure.
 
-- [Superpowers](https://github.com/obra/superpowers) | repo: obra/superpowers | icon: /icons/obra-superpowers.png | stars: 296660 | updated: 2026-10-09 | tags: ai, brainstorming, coding, obra
+- [Superpowers](https://github.com/obra/superpowers) | repo: obra/superpowers | icon: /icons/obra-superpowers.png | stars: 296876 | updated: 2026-10-09 | tags: ai, brainstorming, coding, obra
   An agentic skills framework & software development methodology that works.
-- [Skills](https://github.com/mattpocock/skills) | repo: mattpocock/skills | icon: /icons/mattpocock-skills.png | stars: 281531 | updated: 2026-10-08 | tags: agent-framework, mcp, workflow
+- [Skills](https://github.com/mattpocock/skills) | repo: mattpocock/skills | icon: /icons/mattpocock-skills.png | stars: 282558 | updated: 2026-10-09 | tags: agent-framework, mcp, workflow
   Skills for Real Engineers. Straight from my .agents directory.
-- [Deepseek Harness](https://github.com/deepseek-ai/deepseek-harness) | repo: deepseek-ai/deepseek-harness | icon: /icons/deepseek-ai-deepseek-harness.png | stars: 245929 | updated: 2026-10-03 | tags: ai-agents, cordis, dsh, dsh-plugin
+- [Deepseek Harness](https://github.com/deepseek-ai/deepseek-harness) | repo: deepseek-ai/deepseek-harness | icon: /icons/deepseek-ai-deepseek-harness.png | stars: 246324 | updated: 2026-10-09 | tags: ai-agents, cordis, dsh, dsh-plugin
   DeepSeek Harness: Everything is a Plugin.
 - [Andrej Karpathy Skills](https://github.com/multica-ai/andrej-karpathy-skills) | repo: multica-ai/andrej-karpathy-skills | icon: /icons/multica-ai-andrej-karpathy-skills.png | stars: 216535 | updated: 2026-10-02 | tags: agent-infrastructure, mcp, workflow
   A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
-- [Firecrawl](https://github.com/firecrawl/firecrawl) | repo: firecrawl/firecrawl | icon: /icons/firecrawl-firecrawl.png | stars: 189697 | updated: 2026-10-09 | tags: ai, ai-agents, ai-crawler, ai-scraping
+- [Firecrawl](https://github.com/firecrawl/firecrawl) | repo: firecrawl/firecrawl | icon: /icons/firecrawl-firecrawl.png | stars: 189910 | updated: 2026-10-09 | tags: ai, ai-agents, ai-crawler, ai-scraping
   Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥
-- [Agent Skills](https://github.com/anthropics/skills) | repo: anthropics/skills | icon: /icons/anthropics-skills.png | stars: 180043 | updated: 2026-10-08 | tags: agent-skills
+- [Agent Skills](https://github.com/anthropics/skills) | repo: anthropics/skills | icon: /icons/anthropics-skills.png | stars: 180155 | updated: 2026-10-09 | tags: agent-skills
   Public repository for Agent Skills
-- [Ponytail](https://github.com/DietrichGebert/ponytail) | repo: DietrichGebert/ponytail | icon: /icons/dietrichgebert-ponytail.png | stars: 158844 | updated: 2026-10-08 | tags: agent-skills, ai-agents, claude, claude-code
+- [Ponytail](https://github.com/DietrichGebert/ponytail) | repo: DietrichGebert/ponytail | icon: /icons/dietrichgebert-ponytail.png | stars: 159567 | updated: 2026-10-08 | tags: agent-skills, ai-agents, claude, claude-code
   Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-- [LangChain](https://github.com/langchain-ai/langchain) | repo: langchain-ai/langchain | icon: /icons/langchain-ai-langchain.png | stars: 147416 | updated: 2026-10-08 | tags: agents, ai, ai-agents, anthropic
+- [LangChain](https://github.com/langchain-ai/langchain) | repo: langchain-ai/langchain | icon: /icons/langchain-ai-langchain.png | stars: 147497 | updated: 2026-10-09 | tags: agents, ai, ai-agents, anthropic
   The agent engineering platform.
 - [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | repo: Shubhamsaboo/awesome-llm-apps | icon: /icons/shubhamsaboo-awesome-llm-apps.png | stars: 140697 | updated: 2026-10-04 | tags: agents, llms, python, rag
   100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
-- [Gstack](https://github.com/garrytan/gstack) | repo: garrytan/gstack | icon: /icons/garrytan-gstack.png | stars: 135670 | updated: 2026-10-09 | tags: coding-agent, workflow, agent-framework
+- [Gstack](https://github.com/garrytan/gstack) | repo: garrytan/gstack | icon: /icons/garrytan-gstack.png | stars: 135731 | updated: 2026-10-09 | tags: coding-agent, workflow, agent-framework
   Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA
 - [Spec Kit](https://github.com/github/spec-kit) | repo: github/spec-kit | icon: /icons/github-spec-kit.png | stars: 133741 | updated: 2026-09-07 | tags: ai, copilot, development, engineering
   💫 Toolkit to help you get started with Spec-Driven Development
@@ -1930,6 +1958,8 @@ Description: Libraries and tools for agent infrastructure.
   The open source control plane for agentic engineering.
 - [OpenMemory](https://github.com/CaviraOSS/OpenMemory) | repo: CaviraOSS/OpenMemory | icon: /icons/caviraoss-openmemory.png | stars: 4377 | updated: 2026-07-26 | tags: memory, codex, claude, agent-infrastructure
   Local persistent memory store for LLM applications and agent clients including Claude Desktop, GitHub Copilot, Codex, and Antigravity.
+- [Chat On Steroids](https://github.com/totec448-spec/chat-on-steroids) | repo: totec448-spec/chat-on-steroids | icon: /icons/totec448-spec-chat-on-steroids.png | stars: 4278 | updated: 2026-10-09 | tags: automation, chatgpt, chrome-extension, electron
+  Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.
 - [Spec Workflow MCP](https://github.com/Pimzino/spec-workflow-mcp) | repo: Pimzino/spec-workflow-mcp | icon: /icons/pimzino-spec-workflow-mcp.png | stars: 4264 | updated: 2026-07-10 | tags: agent-infrastructure, mcp, workflow
   A Model Context Protocol (MCP) server that provides structured spec-driven development workflow tools for AI-assisted software development, featuring a real-time web dashboard and VSCode extension for monitoring and managing your project's progress directly in your development environment.
 - [GPT Image2 Skill](https://github.com/wuyoscar/GPT-Image2-Skill) | repo: wuyoscar/GPT-Image2-Skill | icon: /icons/wuyoscar-gpt-image2-skill.png | stars: 4217 | updated: 2026-08-08 | tags: agent-skills, ai-image-prompts, claude-code-skill, cli
@@ -2178,6 +2208,8 @@ Description: Libraries and tools for agent infrastructure.
   Git-backed team memory for engineers and AI agents, including code graph, context, and MCP server support.
 - [Agent Desktop](https://github.com/lahfir/agent-desktop) | repo: lahfir/agent-desktop | icon: /icons/lahfir-agent-desktop.png | stars: 1722 | updated: 2026-09-29 | tags: accessibility, accessibility-api, ai-agents, automation
   Rust computer-use runtime that gives agents stable desktop accessibility-tree references and safe retryable actions.
+- [Pstack Claude](https://github.com/michael-denyer/pstack-claude) | repo: michael-denyer/pstack-claude | icon: /icons/michael-denyer-pstack-claude.png | stars: 1719 | updated: 2026-10-09 | tags: agent-plugin, agent-skills, agentic-ai, anthropic
+  Claude Code, Codex, Copilot, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.
 - [Agent Beacon](https://github.com/Asymptote-Labs/agent-beacon) | repo: Asymptote-Labs/agent-beacon | icon: /icons/asymptote-labs-agent-beacon.png | stars: 1707 | updated: 2026-09-29 | tags: agent-ai-cli, agent-harnesses, agent-security, browser-extension
   Cross-harness memory layer for AI agents with telemetry, security, and self-improving knowledge-base workflows.
 - [Claude Agent Sdk Typescript](https://github.com/anthropics/claude-agent-sdk-typescript) | repo: anthropics/claude-agent-sdk-typescript | icon: /icons/anthropics-claude-agent-sdk-typescript.png | stars: 1699 | updated: 2026-08-16 | tags: devtools, cli, agent-framework
@@ -2301,13 +2333,13 @@ Description: Libraries and tools for agent infrastructure.
 - [Genshijin](https://github.com/InterfaceX-co-jp/genshijin) | repo: InterfaceX-co-jp/genshijin | icon: /icons/interfacex-co-jp-genshijin.png | stars: 259 | updated: 2026-07-19 | tags: caveman, claude, claude-code, claude-code-plugin
   genshijin 原始人 🗿- Claude Code / Codex等AIエージェント 向け超圧縮コミュニケーションスキル。caveman の日本語版をベースに、日本語特有の冗長表現に最適化。
 
-### DevTools & CLIs | 118 projects
+### DevTools & CLIs | 120 projects
 
 Description: Developer tools, CLIs and productivity helpers.
 
-- [ECC](https://github.com/affaan-m/ECC) | repo: affaan-m/ECC | icon: /icons/affaan-m-ecc.png | stars: 275534 | updated: 2026-10-05 | tags: ai-agents, anthropic, claude, claude-code
+- [ECC](https://github.com/affaan-m/ECC) | repo: affaan-m/ECC | icon: /icons/affaan-m-ecc.png | stars: 275939 | updated: 2026-10-09 | tags: ai-agents, anthropic, claude, claude-code
   The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- [CC Switch](https://github.com/farion1231/cc-switch) | repo: farion1231/cc-switch | icon: /icons/farion1231-cc-switch.png | stars: 141628 | updated: 2026-10-09 | tags: ai-tools, claude-code, codex, desktop-app
+- [CC Switch](https://github.com/farion1231/cc-switch) | repo: farion1231/cc-switch | icon: /icons/farion1231-cc-switch.png | stars: 141897 | updated: 2026-10-09 | tags: ai-tools, claude-code, codex, desktop-app
   A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io
 - [Open Design](https://github.com/nexu-io/open-design) | repo: nexu-io/open-design | icon: /icons/nexu-io-open-design.png | stars: 99389 | updated: 2026-10-04 | tags: agent-skills, ai-design, byok, claude-code-for-design
   🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.
@@ -2389,6 +2421,8 @@ Description: Developer tools, CLIs and productivity helpers.
   Kode CLI — Design for post-human workflows. One unit agent for every human & computer task.
 - [AgentsView](https://github.com/kenn-io/agentsview) | repo: kenn-io/agentsview | icon: /icons/kenn-io-agentsview.png | stars: 5176 | updated: 2026-08-21 | tags: coding-agent, analytics, devtools
   Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.
+- [Tuios](https://github.com/Gaurav-Gosain/tuios) | repo: Gaurav-Gosain/tuios | icon: /icons/gaurav-gosain-tuios.png | stars: 5076 | updated: 2026-10-09 | tags: ai-agents, bubbletea, charm, claude-code
+  A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.
 - [Entire CLI](https://github.com/entireio/cli) | repo: entireio/cli | icon: /icons/entireio-cli.png | stars: 5010 | updated: 2026-08-26 | tags: agents, ai, claude, developer
   📜 Entire CLI hooks into your Git workflow to capture AI agent sessions as you work. Sessions are indexed alongside commits, creating a searchable record of how code was written in your repo.
 - [GitHub Agentic Workflows](https://github.com/github/gh-aw) | repo: github/gh-aw | icon: /icons/github-gh-aw.png | stars: 4991 | updated: 2026-08-25 | tags: actions, cai, ci, claude-code
@@ -2513,6 +2547,8 @@ Description: Developer tools, CLIs and productivity helpers.
   Local-first extensions that turn AI IDE and terminal-agent histories into reusable skills and synchronized project context.
 - [Rulesync](https://github.com/dyoshikawa/rulesync) | repo: dyoshikawa/rulesync | icon: /icons/dyoshikawa-rulesync.png | stars: 1235 | updated: 2026-07-16 | tags: ai, ai-agents, ai-coding, llm
   A Utility CLI for AI Coding Agents
+- [Crit](https://github.com/tomasz-tomczyk/crit) | repo: tomasz-tomczyk/crit | icon: /icons/tomasz-tomczyk-crit.png | stars: 1195 | updated: 2026-10-09 | tags: agentic-coding, ai-agents, ai-tools, cli
+  Review AI coding agents' plans, diffs and running apps in the browser. Local-first, works with any agent.
 - [Codex Action](https://github.com/openai/codex-action) | repo: openai/codex-action | icon: /icons/openai-codex-action.png | stars: 1193 | updated: 2026-08-15 | tags: coding-agent, workflow, agent-framework
   GitHub Action for running Codex automation inside repository workflows.
 - [Skills Hub](https://github.com/qufei1993/skills-hub) | repo: qufei1993/skills-hub | icon: /icons/qufei1993-skills-hub.png | stars: 1125 | updated: 2026-07-16 | tags: devtools, cli, coding-agent
